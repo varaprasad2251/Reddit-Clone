@@ -4,6 +4,7 @@ package engine
 import (
 	"sort"
 	"sync"
+	"sync/atomic"
 )
 
 // Engine manages all users, subreddits, and posts
@@ -11,6 +12,7 @@ type Engine struct {
 	Users      map[int]*User
 	Subreddits map[int]*Subreddit
 	Messages []*Message
+	commentIDCounter int64
 	sync.RWMutex
 }
 
@@ -22,6 +24,19 @@ func NewEngine() *Engine {
 	}
 }
 
+func (e *Engine) generateCommentID() int {
+    return int(atomic.AddInt64(&e.commentIDCounter, 1))
+}
+
+func (e *Engine) CreateComment(postID, userID int, content string) *Comment {
+    comment := &Comment{
+        ID:       e.generateCommentID(), // Implement this method to generate unique IDs
+        Content:  content,
+        AuthorID: userID,
+    }
+    // Add logic to associate the comment with the post
+    return comment
+}
 
 func (e *Engine) UpdateKarma(userID, points int) {
 	e.RLock()
