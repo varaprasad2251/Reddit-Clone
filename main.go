@@ -1,43 +1,55 @@
 package main
 
 import (
-	"cop5615-project4/redditEngine"
+	"github.com/asynkron/protoactor-go/actor"
+	"github.com/sirupsen/logrus"
+	"cop5615-project4/Engine"
 	"cop5615-project4/simulation"
 	"flag"
 	"fmt"
 	"sync"
 	"time"
-	"github.com/asynkron/protoactor-go/actor"
+	"os"
 )
 
 func main() {
+	log := logrus.New()
+	// log.SetFlags(log.LstdFlags | log.Lshortfile)
+	log.SetFormatter(&logrus.TextFormatter{
+		FullTimestamp: true, // Enable full timestamps
+		TimestampFormat: "2006-01-02 15:04:05", // Set custom timestamp format
+	})
+	// Optional: Log to a file
+	log.SetOutput(os.Stderr)
+
 	startTime := time.Now()
+	
 	actorSystem := actor.NewActorSystem()
-	fmt.Println("ActorSystem created")
+	log.Info("Actor system created")
 	var wg sync.WaitGroup
 
-
-	engine := redditEngine.NewRedditEngine(actorSystem, &wg)
-	fmt.Println("Reddit Engine created")
+	engine := Engine.NewEngine(actorSystem, &wg)
+	log.Info("Reddit engine created")
 	props := actor.PropsFromProducer(func() actor.Actor {
 		return engine
 	})
 	enginePID := actorSystem.Root.Spawn(props)
 
-	// numUsers := 10
-	numUsers := flag.Int("users", 10, "number of users to simulate")
+	numUsers := flag.Int("users", 10, "Number of users to simulate")
 	flag.Parse()
+	
+	log.Info(fmt.Sprintf("Starting Simulation with %d users", *numUsers))
+
 	for i := 0; i < *numUsers; i++ {
 		wg.Add(1)
-		userName := fmt.Sprintf("User%d", i+1)
+		userName := fmt.Sprintf("%d", i+1)
 		go simulation.SimulateUser(enginePID, actorSystem, userName, &wg)
 	}
 
-	// Wait until all users have finished their actions
 	wg.Wait()
-	fmt.Println("Finished simulating all users.")
 	simulationTime := time.Since(startTime)
     engine.Stats.SimulationTime = simulationTime
-    
+    log.Info("Simulation Completed")
+
     engine.PrintStats()
 }

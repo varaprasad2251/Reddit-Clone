@@ -1,5 +1,5 @@
 // user_operations.go
-package redditEngine
+package Engine
 
 import (
 	"cop5615-project4/messages"
@@ -7,10 +7,10 @@ import (
 )
 
 // registerUser registers a user if they are not already in userData.
-func (engine *RedditEngine) RegisterUser(userName string) {
+func (engine *Engine) RegisterUser(userName string) {
 	// Check if the user already exists in the map
 	if _, exists := engine.userData[userName]; exists {
-		fmt.Printf("User %s is already registered.\n", userName)
+		// fmt.Printf("User %s is already registered.\n", userName)
 		return
 	}
 
@@ -23,24 +23,24 @@ func (engine *RedditEngine) RegisterUser(userName string) {
 }
 
 // subredditSpecificOp performs subreddit join or leave operations for a user.
-func (engine *RedditEngine) SubredditSpecificOp(actionToPerform string, userName string, subRedditName string) {
+func (engine *Engine) SubredditSpecificOp(actionToPerform string, userName string, subRedditName string) {
 	// Check if the user already exists in the map
 	userData, exists := engine.userData[userName]
 	if !exists {
-		fmt.Printf("User %s is not registered and cannot join or leave subreddits.\n", userName)
+		// fmt.Printf("User %s is not registered and cannot join or leave subreddits.\n", userName)
 		return
 	}
 	// Ensure the subreddit exists in the map; if not, create it
 	if _, subredditExists := engine.subRedditData[subRedditName]; !subredditExists {
 		engine.subRedditData[subRedditName] = messages.SubReddit{ListOfPosts: []messages.Post{}}
-		fmt.Printf("Subreddit %s did not exist and was created.\n", subRedditName)
+		// fmt.Printf("Subreddit %s did not exist and was created.\n", subRedditName)
 	}
 	switch actionToPerform {
 	case "join":
 		// Check if the user is already part of the subreddit
 		for _, subreddit := range userData.JointSubReddit {
 			if subreddit == subRedditName {
-				fmt.Printf("User %s is already a member of %s subreddit.\n", userName, subRedditName)
+				// fmt.Printf("User %s is already a member of %s subreddit.\n", userName, subRedditName)
 				return
 			}
 		}
@@ -59,7 +59,7 @@ func (engine *RedditEngine) SubredditSpecificOp(actionToPerform string, userName
 				return
 			}
 		}
-		fmt.Printf("User %s is not a member of %s subreddit.\n", userName, subRedditName)
+		// fmt.Printf("User %s is not a member of %s subreddit.\n", userName, subRedditName)
 
 	default:
 		fmt.Printf("Unknown action: %s. Supported actions are 'join' and 'leave'.\n", actionToPerform)
@@ -67,18 +67,18 @@ func (engine *RedditEngine) SubredditSpecificOp(actionToPerform string, userName
 }
 
 // CreatePost creates a new post in a specified subreddit if the user is registered.
-func (engine *RedditEngine) CreatePost(userName string, subRedditName string, content messages.Post) {
+func (engine *Engine) CreatePost(userName string, subRedditName string, content messages.Post) {
 	// Check if the user is registered
 	user, userExists := engine.userData[userName]
 	if !userExists {
-		fmt.Printf("User %s is not registered and cannot create posts.\n", userName)
+		// fmt.Printf("User %s is not registered and cannot create posts.\n", userName)
 		return
 	}
 
 	// Check if the subreddit exists in the map
 	subreddit, subredditExists := engine.subRedditData[subRedditName]
 	if !subredditExists {
-		fmt.Printf("Subreddit %s does not exist.\n", subRedditName)
+		// fmt.Printf("Subreddit %s does not exist.\n", subRedditName)
 		return
 	}
 
@@ -92,7 +92,7 @@ func (engine *RedditEngine) CreatePost(userName string, subRedditName string, co
 	if !isUserInSubreddit(user.JointSubReddit, subRedditName) {
 		user.JointSubReddit = append(user.JointSubReddit, subRedditName)
 		engine.userData[userName] = user
-		fmt.Printf("User %s was automatically added to %s subreddit.\n", userName, subRedditName)
+		fmt.Printf("User %s was added to %s subreddit.\n", userName, subRedditName)
 	}
 }
 
@@ -107,18 +107,18 @@ func isUserInSubreddit(subreddits []string, subredditName string) bool {
 }
 
 // ReplyToComment allows a user to reply to a specific comment in a post within a subreddit.
-func (engine *RedditEngine) ReplyToComment(userName string, subRedditName string, postID int, commentID int, replyContent string) {
+func (engine *Engine) ReplyToComment(userName string, subRedditName string, postID int, commentID int, replyContent string) {
 	// Step 1: Check if the user is registered
 	_, userExists := engine.userData[userName]
 	if !userExists {
-		fmt.Printf("User %s is not registered and cannot reply to comments.\n", userName)
+		// fmt.Printf("User %s is not registered and cannot reply to comments.\n", userName)
 		return
 	}
 
 	// Step 2: Check if the subreddit exists in the map
 	subreddit, subredditExists := engine.subRedditData[subRedditName]
 	if !subredditExists {
-		fmt.Printf("Subreddit %s does not exist.\n", subRedditName)
+		// fmt.Printf("Subreddit %s does not exist.\n", subRedditName)
 		return
 	}
 	// Debug: Print the number of posts in the subreddit
@@ -134,7 +134,7 @@ func (engine *RedditEngine) ReplyToComment(userName string, subRedditName string
 	}
 
 	if post == nil {
-		fmt.Printf("Post with ID %d does not exist in subreddit %s.\n", postID, subRedditName)
+		// fmt.Printf("Post with ID %d does not exist in subreddit %s.\n", postID, subRedditName)
 		return
 	}
 
@@ -150,9 +150,9 @@ func (engine *RedditEngine) ReplyToComment(userName string, subRedditName string
 
 	success := addReplyToComment(post.Comments, commentID, reply)
 	if success {
-		fmt.Printf("User %s replied to comment %d in post %d in subreddit %s.\n", userName, commentID, postID, subRedditName)
+		fmt.Printf("User %s replied to comment %d on post %d in subreddit %s.\n", userName, commentID, postID, subRedditName)
 	} else {
-		fmt.Printf("Comment with ID %d not found in post %d in subreddit %s.\n", commentID, postID, subRedditName)
+		fmt.Printf("Comment %d not found in post %d in subreddit %s.\n", commentID, postID, subRedditName)
 	}
 }
 

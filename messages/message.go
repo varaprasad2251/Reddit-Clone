@@ -35,6 +35,7 @@ type Post struct {
 	Comments  []Comment
 	CreatedAt time.Time
 }
+
 type Comment struct {
 	ID        int
 	Content   string
@@ -60,6 +61,7 @@ type GetFeed struct {
     UserName string
     Limit    int
 }
+
 type GetDM struct{}
 
 type CreateSubreddit struct {

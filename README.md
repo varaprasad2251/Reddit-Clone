@@ -70,7 +70,7 @@ Now you have Go installed and configured on your macOS system.
 
 ## Overview
 
-### Engine (redditEngine/engine.go)
+### Engine (Engine/engine.go)
 
 The Reddit engine is implemented using the Actor model with the following key features:
 
@@ -98,7 +98,7 @@ The simulation runs for a fixed number of actions per user (default: 20) with ra
 
 ## Modules
 
-### 1. RedditEngine (redditEngine/engine.go)
+### 1. Engine (Engine/engine.go)
 
 The core engine that handles all Reddit-like functionalities:
 
@@ -119,7 +119,7 @@ Simulates user activities:
 
 ### 3. Main (main.go)
 
-Initializes the ActorSystem, creates the RedditEngine, and spawns multiple simulated users.
+Initializes the ActorSystem, creates the Engine, and spawns multiple simulated users.
 
 ## Stats
 
@@ -132,7 +132,7 @@ The engine tracks various statistics:
 - User-specific stats (karma, post count)
 - Simulation duration
 
-These stats are collected throughout the simulation and printed at the end using the `PrintStats` method of the RedditEngine.
+These stats are collected throughout the simulation and printed at the end using the `PrintStats` method of the Engine.
 
 ## Running the Simulation
 

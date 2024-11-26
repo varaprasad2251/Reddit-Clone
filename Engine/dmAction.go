@@ -1,4 +1,4 @@
-package redditEngine
+package Engine
 
 import (
 	"cop5615-project4/messages"
@@ -6,9 +6,7 @@ import (
 	"math/rand"
 )
 
-// SendDMtoUser sends a direct message to a random user excluding the sender.
-func (engine *RedditEngine) SendDMtoUser(sender string, content string) {
-	// Step 1: Collect all usernames except the sender
+func (engine *Engine) SendDMtoUser(sender string, content string) {
 	var potentialRecipients []string
 	for userName := range engine.userData {
 		if userName != sender {
@@ -16,29 +14,25 @@ func (engine *RedditEngine) SendDMtoUser(sender string, content string) {
 		}
 	}
 
-	// Step 2: Check if there are any potential recipients
 	if len(potentialRecipients) == 0 {
 		fmt.Printf("No users available to send a DM to.\n")
 		return
 	}
 
-	// Step 3: Randomly select a recipient
 	recipient := potentialRecipients[rand.Intn(len(potentialRecipients))]
 
-	// Step 4: Create the DM and add it to the recipient's DM list
 	dm := messages.DM{
 		UserName: sender,
 		Content:  content,
 	}
 	recipientData := engine.userData[recipient]
 	recipientData.Dm = append(recipientData.Dm, dm)
-	engine.userData[recipient] = recipientData // Update the recipient data
+	engine.userData[recipient] = recipientData
 
-	// Step 5: Print confirmation
 	fmt.Printf("User %s sent a DM to %s: %s\n", sender, recipient, content)
 }
 
-func (engine *RedditEngine) ReplyToAllDMs(sender string, replyContent string) {
+func (engine *Engine) ReplyToAllDMs(sender string, replyContent string) {
 	// Step 1: Check if the sender exists in the system
 	senderData, senderExists := engine.userData[sender]
 	if !senderExists {

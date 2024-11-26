@@ -2,7 +2,10 @@ module cop5615-project4
 
 go 1.23.0
 
-require github.com/asynkron/protoactor-go v0.0.0-20240822202345-3c0e61ca19c9
+require (
+	github.com/asynkron/protoactor-go v0.0.0-20240822202345-3c0e61ca19c9
+	github.com/sirupsen/logrus v1.9.3
+)
 
 require (
 	github.com/Workiva/go-datastructures v1.1.3 // indirect

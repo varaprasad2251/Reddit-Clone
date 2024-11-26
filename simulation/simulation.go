@@ -36,13 +36,10 @@ func SimulateUser(enginePID *actor.PID, system *actor.ActorSystem, userName stri
 		func() { randomVote(enginePID, system, userName) },
     }
 
-    // for i := 0; i < 50; i++ {
-    //     action := actions[rand.Intn(len(actions))]
-    //     action()
-    //     time.Sleep(time.Duration(rand.Intn(1000)) * time.Millisecond)
-    // }
-	for i := 0; i < 100; i++ { // Increase from 50 to 100 actions per user
-		if rand.Float32() < 0.4 { // 40% chance of voting
+	var numActions int = 150
+
+	for i := 0; i < numActions; i++ { 
+		if rand.Float32() < 0.3 {
 			randomVote(enginePID, system, userName)
 		} else {
 			action := actions[rand.Intn(len(actions))]
@@ -126,17 +123,32 @@ func getDirectMessages(enginePID *actor.PID, system *actor.ActorSystem, userName
 
 func generateRandomContent() string {
     contents := []string{
-        "Interesting post!",
-        "I disagree with this.",
-        "Thanks for sharing.",
-        "Can you elaborate?",
-        "This is amazing!",
+        "The moon is just a hologram!",
+        "Does anyone else hear that faint buzzing?",
+        "I can't believe it's not butter!",
+        "Why are ducks so underrated?",
+        "Time travel is overrated.",
+        "Bananas are a government conspiracy!",
+        "This reminds me of my pet hamster, Gerald.",
+        "Is anyone else craving tacos right now?",
+        "Pineapples on pizza? Let's discuss.",
+        "I'm 90% sure this is a simulation.",
+        "The cake is a lie!",
+        "Who let the dogs out?",
+        "This post smells like teen spirit.",
+        "One does not simply ignore this post.",
+        "Aliens are among us. Trust me.",
+        "This made my goldfish do a backflip.",
+        "I'm typing this with my toes.",
+        "The sky just winked at me. Weird.",
+        "I'm not crying, you're crying.",
+        "Did you know otters hold hands?",
     }
     return contents[rand.Intn(len(contents))]
 }
 
 func randomVote(enginePID *actor.PID, system *actor.ActorSystem, userName string) {
-    targetUser := fmt.Sprintf("User%d", rand.Intn(5)+1)
+    targetUser := fmt.Sprintf("%d", rand.Intn(5)+1)
     postID := rand.Intn(100)
     if rand.Float32() < 0.7 { // 70% chance of upvote
         system.Root.Send(enginePID, &messages.UpVotePost{

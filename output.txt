@@ -1,2117 +1,633 @@
-ActorSystem created
-NewRedditEngine: Initializing RedditEngine
-Reddit Engine created
-RedditEngine: Entered Receive method ; Received Action-> &{}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 []}
-RedditEngine: Processing user registration
-User User4 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 []}
-RedditEngine: Processing user registration
-User User2 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 []}
-RedditEngine: Processing user registration
-User User3 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_82 {406286 This is post #292 by User3 User3 0 0 [] 2024-11-26 14:29:00.158265 -0500 EST m=+0.009012168}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_82 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 []}
-RedditEngine: Processing user registration
-User User5 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 29 User5}
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 []}
-RedditEngine: Processing user registration
-User User1 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 84 User1}
-RedditEngine: Processing Downvote
-User User1 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 82 User3}
-RedditEngine: Processing Downvote
-User User4 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 24 User5}
-RedditEngine: Processing Downvote
-User User2 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_1 443 71 Reply from User2: I disagree with this.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_1 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User486 DM from User2: Thanks for sharing.}
-RedditEngine: Send DM
-User User486 sent a DM to User3: DM from User2: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_89 664 68 Reply from User1: I disagree with this.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_89 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_19 582 89 Reply from User5: I disagree with this.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_19 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 36 User2}
-RedditEngine: Processing Upvote
-User User4 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 89 User1}
-RedditEngine: Processing Upvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 76 User2}
-RedditEngine: Processing Downvote
-User User2 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 81 User3}
-RedditEngine: Processing Upvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_80 {995732 This is post #37 by User1 User1 0 0 [] 2024-11-26 14:29:00.693449 -0500 EST m=+0.544208043}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_80 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_48 {699463 This is post #61 by User5 User5 0 0 [] 2024-11-26 14:29:00.732459 -0500 EST m=+0.583218710}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_48 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 757 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 84 User1}
-RedditEngine: Processing Downvote
-User User4 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User800 DM from User3: I disagree with this.}
-RedditEngine: Send DM
-User User800 sent a DM to User3: DM from User3: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_88}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_88 did not exist and was created.
-User User1 joined subreddit_88 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 50 User3}
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User764 DM from User5: This is amazing!}
-RedditEngine: Send DM
-User User764 sent a DM to User3: DM from User5: This is amazing!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 44 User2}
-RedditEngine: Processing Downvote
-User User2 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_93 {440102 This is post #84 by User3 User3 0 0 [] 2024-11-26 14:29:01.020719 -0500 EST m=+0.871484168}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_93 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User949 DM from User1: Can you elaborate?}
-RedditEngine: Send DM
-User User949 sent a DM to User2: DM from User1: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 92 User4}
-RedditEngine: Processing Upvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 97 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 46 }
-RedditEngine: Processing Downvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 145 }
-RedditEngine: Processing Upvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_37 {393685 This is post #900 by User2 User2 0 0 [] 2024-11-26 14:29:01.197731 -0500 EST m=+1.048499835}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_37 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 15 User2}
-RedditEngine: Processing Upvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 312 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 11 User2}
-RedditEngine: Processing Upvote
-User User4 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User467 DM from User4: Can you elaborate?}
-RedditEngine: Send DM
-User User467 sent a DM to User3: DM from User4: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 94 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_69}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_69 did not exist and was created.
-User User2 joined subreddit_69 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 75 User3}
-RedditEngine: Processing Upvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_10}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_10 did not exist and was created.
-User User4 joined subreddit_10 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_53 {910579 This is post #208 by User1 User1 0 0 [] 2024-11-26 14:29:02.030765 -0500 EST m=+1.881551793}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_53 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 261 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 45 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 28 User3}
-RedditEngine: Processing Downvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_7 {686713 This is post #153 by User2 User2 0 0 [] 2024-11-26 14:29:02.302979 -0500 EST m=+2.153771710}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_7 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 15 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 64 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 91 User1}
-RedditEngine: Processing Downvote
-User User3 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 690 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 29 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_3 {587673 This is post #622 by User4 User4 0 0 [] 2024-11-26 14:29:02.838743 -0500 EST m=+2.689550460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_3 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_14 655 51 Reply from User2: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_14 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 0 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 84 User4}
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 453 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_78}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_78 did not exist and was created.
-User User3 joined subreddit_78 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 61 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 45 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 77 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 80 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 48 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 53 User2}
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 75 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 72 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 864 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_36}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_36 did not exist and was created.
-User User4 joined subreddit_36 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_79 371 23 Reply from User1: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_79 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20 User3}
-RedditEngine: Processing Upvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 98 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 363 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 98 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_4 {302742 This is post #456 by User5 User5 0 0 [] 2024-11-26 14:29:03.8363 -0500 EST m=+3.687124543}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_4 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User890 DM from User4: Thanks for sharing.}
-RedditEngine: Send DM
-User User890 sent a DM to User4: DM from User4: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 36 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_11 {579578 This is post #121 by User5 User5 0 0 [] 2024-11-26 14:29:04.205383 -0500 EST m=+4.056215126}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_11 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 15 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 207 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User945 DM from User4: I disagree with this.}
-RedditEngine: Send DM
-User User945 sent a DM to User1: DM from User4: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 864 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 32 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 21 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 75 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_16 186 97 Reply from User1: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_16 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 3 User4}
-RedditEngine: Processing Upvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 41 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 25 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 30 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 30 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 98 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User535 DM from User2: Thanks for sharing.}
-RedditEngine: Send DM
-User User535 sent a DM to User1: DM from User2: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 635 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 21 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 72 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 22 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 30 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_64 {572840 This is post #536 by User3 User3 0 0 [] 2024-11-26 14:29:05.354225 -0500 EST m=+5.205081251}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_64 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 54 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 61 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_84 432 40 Reply from User5: Interesting post!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_84 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 10 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_44 883 27 Reply from User1: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_44 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User924 DM from User5: I disagree with this.}
-RedditEngine: Send DM
-User User924 sent a DM to User3: DM from User5: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 267 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 68 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 56 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 62 User1}
-RedditEngine: Processing Upvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 366 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_5 {304995 This is post #236 by User4 User4 0 0 [] 2024-11-26 14:29:05.893606 -0500 EST m=+5.744474043}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_5 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 65 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 297 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 69 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User268 DM from User1: Thanks for sharing.}
-RedditEngine: Send DM
-User User268 sent a DM to User5: DM from User1: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 0 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 294 }
-RedditEngine: Processing Upvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 96 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 19 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User922 DM from User5: I disagree with this.}
-RedditEngine: Send DM
-User User922 sent a DM to User4: DM from User5: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 56 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 71 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 16 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 892 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 32 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_14}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_14 did not exist and was created.
-User User3 joined subreddit_14 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 59 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 13 User1}
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 89 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 212 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 24 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 687 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_62}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_62 did not exist and was created.
-User User2 joined subreddit_62 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 96 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_51 876 44 Reply from User3: This is amazing!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_51 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 35 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 907 }
-RedditEngine: Processing Downvote
-User User5 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 4 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_3 {105153 This is post #774 by User1 User1 0 0 [] 2024-11-26 14:29:07.632412 -0500 EST m=+7.483315710}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_3 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 10 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_76}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_76 did not exist and was created.
-User User5 joined subreddit_76 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User509 DM from User4: Interesting post!}
-RedditEngine: Send DM
-User User509 sent a DM to User1: DM from User4: Interesting post!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 26 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 4 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 21 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 67 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_37 575 19 Reply from User4: Thanks for sharing.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_37 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_30 {626617 This is post #210 by User3 User3 0 0 [] 2024-11-26 14:29:08.338426 -0500 EST m=+8.189344793}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_30 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 91 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 985 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_57 {473439 This is post #737 by User2 User2 0 0 [] 2024-11-26 14:29:08.436524 -0500 EST m=+8.287444793}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_57 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 6 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User203 DM from User2: Can you elaborate?}
-RedditEngine: Send DM
-User User203 sent a DM to User3: DM from User2: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_47}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_47 did not exist and was created.
-User User4 joined subreddit_47 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 65 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 89 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 57 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 81 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 36 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 92 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_5 {636991 This is post #411 by User5 User5 0 0 [] 2024-11-26 14:29:08.872738 -0500 EST m=+8.723667460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_5 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 34 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_65}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_65 did not exist and was created.
-User User1 joined subreddit_65 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 18 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_97 {262442 This is post #695 by User4 User4 0 0 [] 2024-11-26 14:29:09.210554 -0500 EST m=+9.061491293}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_97 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 63 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 72 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User842 DM from User5: I disagree with this.}
-RedditEngine: Send DM
-User User842 sent a DM to User4: DM from User5: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 40 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 65 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User783 DM from User5: Can you elaborate?}
-RedditEngine: Send DM
-User User783 sent a DM to User2: DM from User5: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 51 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 8 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_34 {620909 This is post #725 by User2 User2 0 0 [] 2024-11-26 14:29:09.661938 -0500 EST m=+9.512884876}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_34 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 0 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 91 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_7 {817310 This is post #566 by User3 User3 0 0 [] 2024-11-26 14:29:09.729055 -0500 EST m=+9.580003168}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_7 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_28 {37350 This is post #135 by User1 User1 0 0 [] 2024-11-26 14:29:09.85405 -0500 EST m=+9.705000210}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_28 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 500 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 19 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_67}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_67 did not exist and was created.
-User User2 joined subreddit_67 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 99 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 167 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 958 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_67 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 58 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_1 604 30 Reply from User4: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_1 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 25 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 13 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 89 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 473 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_24}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_24 did not exist and was created.
-User User3 joined subreddit_24 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User364 DM from User4: Thanks for sharing.}
-RedditEngine: Send DM
-User User364 sent a DM to User4: DM from User4: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 72 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 348 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 84 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User496 DM from User5: I disagree with this.}
-RedditEngine: Send DM
-User User496 sent a DM to User4: DM from User5: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_69}
-RedditEngine: User Join SubReddit Operation
-User User2 is already a member of subreddit_69 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_11 {314698 This is post #690 by User2 User2 0 0 [] 2024-11-26 14:29:11.280174 -0500 EST m=+11.131154668}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_11 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 55 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 26 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 74 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_47 546 92 Reply from User4: This is amazing!}
-RedditEngine: Reply To Comment
-Post with ID 546 does not exist in subreddit subreddit_47.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 27 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_67 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 11 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 169 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 71 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_24 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 58 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 735 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 17 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_8 804 82 Reply from User3: I disagree with this.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_8 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 563 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_82 {997531 This is post #228 by User2 User2 0 0 [] 2024-11-26 14:29:12.038397 -0500 EST m=+11.889393460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_82 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_66}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_66 did not exist and was created.
-User User5 joined subreddit_66 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 10 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 21 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User604 DM from User4: Can you elaborate?}
-RedditEngine: Send DM
-User User604 sent a DM to User4: DM from User4: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 52 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_81 {930026 This is post #471 by User5 User5 0 0 [] 2024-11-26 14:29:12.485357 -0500 EST m=+12.336362418}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_81 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_76}
-RedditEngine: User Join SubReddit Operation
-User User3 joined subreddit_76 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 37 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 22 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 693 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_12 {289481 This is post #422 by User1 User1 0 0 [] 2024-11-26 14:29:12.7691 -0500 EST m=+12.620111460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_12 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 79 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_16}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_16 did not exist and was created.
-User User5 joined subreddit_16 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 55 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 48 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_67 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 930 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 32 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_75 489 42 Reply from User1: Thanks for sharing.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_75 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 73 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_63}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_63 did not exist and was created.
-User User2 joined subreddit_63 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User302 DM from User2: Interesting post!}
-RedditEngine: Send DM
-User User302 sent a DM to User4: DM from User2: Interesting post!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User840 DM from User5: Thanks for sharing.}
-RedditEngine: Send DM
-User User840 sent a DM to User5: DM from User5: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 516 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 23 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 11 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 72 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 91 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 45 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 28 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 4 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User88 DM from User3: Thanks for sharing.}
-RedditEngine: Send DM
-User User88 sent a DM to User3: DM from User3: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 42 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 380 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_87 {442209 This is post #11 by User1 User1 0 0 [] 2024-11-26 14:29:13.927365 -0500 EST m=+13.778401168}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_87 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 81 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_24 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 32 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 70 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 33 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 549 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_24 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User85 DM from User1: Can you elaborate?}
-RedditEngine: Send DM
-User User85 sent a DM to User3: DM from User1: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_98}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_98 did not exist and was created.
-User User5 joined subreddit_98 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_64 {990750 This is post #811 by User4 User4 0 0 [] 2024-11-26 14:29:14.245323 -0500 EST m=+14.096365043}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_64 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 43 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 20 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_90 {312535 This is post #394 by User4 User4 0 0 [] 2024-11-26 14:29:14.39043 -0500 EST m=+14.241475668}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_90 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 85 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 32 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_66 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 512 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 29 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 8 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User529 DM from User5: I disagree with this.}
-RedditEngine: Send DM
-User User529 sent a DM to User2: DM from User5: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_95 {530059 This is post #209 by User1 User1 0 0 [] 2024-11-26 14:29:14.725463 -0500 EST m=+14.576515460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_95 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_17 560 67 Reply from User1: This is amazing!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_17 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 74 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_55 900 55 Reply from User2: Interesting post!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_55 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 43 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 43 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_66 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 347 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 92 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_24 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 453 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 86 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_67 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 7 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User300 DM from User5: Thanks for sharing.}
-RedditEngine: Send DM
-User User300 sent a DM to User1: DM from User5: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 86 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_38}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_38 did not exist and was created.
-User User4 joined subreddit_38 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 67 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 25 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 93 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 39 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 71 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 716 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 10 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 88 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 255 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 80 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 459 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_75 387 34 Reply from User4: This is amazing!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_75 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 11 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 53 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_67 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User940 DM from User5: Can you elaborate?}
-RedditEngine: Send DM
-User User940 sent a DM to User4: DM from User5: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 78 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 113 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 92 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_67 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 58 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User275 DM from User4: Interesting post!}
-RedditEngine: Send DM
-User User275 sent a DM to User1: DM from User4: Interesting post!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 82 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 86 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 19 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 91 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 613 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_83}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_83 did not exist and was created.
-User User2 joined subreddit_83 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 38 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 41 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_38 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 6 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_24 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 530 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 61 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_13 {251486 This is post #946 by User2 User2 0 0 [] 2024-11-26 14:29:17.603925 -0500 EST m=+17.455037960}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_13 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_97}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_97 did not exist and was created.
-User User5 joined subreddit_97 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 0 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_83 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 0 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 514 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 55 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_66 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 79 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_22}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_22 did not exist and was created.
-User User4 joined subreddit_22 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User902 DM from User2: I disagree with this.}
-RedditEngine: Send DM
-User User902 sent a DM to User2: DM from User2: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_90}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_90 did not exist and was created.
-User User3 joined subreddit_90 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_67 {720717 This is post #799 by User1 User1 0 0 [] 2024-11-26 14:29:18.233556 -0500 EST m=+18.084681835}}
-RedditEngine: Create Post Operation
-User User1 created a post in subreddit subreddit_67: This is post #799 by User1
-User User1 was automatically added to subreddit_67 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 981 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 89 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 140 }
-RedditEngine: Processing Upvote
-User User2 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 1
-Updated karma for user User1. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 85 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_36 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_85 {497768 This is post #759 by User1 User1 0 0 [] 2024-11-26 14:29:18.603682 -0500 EST m=+18.454816126}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_85 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_69}
-RedditEngine: User Join SubReddit Operation
-User User3 joined subreddit_69 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 65 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_79 254 12 Reply from User5: This is amazing!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_79 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_84 817 8 Reply from User4: Interesting post!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_84 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User593 DM from User5: This is amazing!}
-RedditEngine: Send DM
-User User593 sent a DM to User2: DM from User5: This is amazing!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_37 961 33 Reply from User3: Interesting post!}
-RedditEngine: Reply To Comment
-Subreddit subreddit_37 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User262 DM from User1: I disagree with this.}
-RedditEngine: Send DM
-User User262 sent a DM to User3: DM from User1: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 10 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 759 }
-RedditEngine: Processing Upvote
-User User1 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 2
-Updated karma for user User1. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 93 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_65 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 61 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_83 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_49 {529464 This is post #338 by User4 User4 0 0 [] 2024-11-26 14:29:19.205456 -0500 EST m=+19.056602293}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_49 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 38 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 49 User4}
-RedditEngine: Processing Upvote
-User User1 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 3
-Updated karma for user User1. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 59 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 388 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 24 User5}
-RedditEngine: Processing Upvote
-User User1 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 4
-Updated karma for user User1. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 557 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_90 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 16 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 27 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_10 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 33 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_77 {269587 This is post #3 by User2 User2 0 0 [] 2024-11-26 14:29:19.906681 -0500 EST m=+19.757842126}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_77 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_75 998 64 Reply from User2: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_75 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_24 282 54 Reply from User3: Thanks for sharing.}
-RedditEngine: Reply To Comment
-Post with ID 282 does not exist in subreddit subreddit_24.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 35 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 6 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_96}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_96 did not exist and was created.
-User User1 joined subreddit_96 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 44 User3}
-RedditEngine: Processing Upvote
-User User1 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 5
-Updated karma for user User1. New Post Karma: 5
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_68 {548443 This is post #859 by User5 User5 0 0 [] 2024-11-26 14:29:20.285698 -0500 EST m=+20.136866585}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_68 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 67 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_73}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_73 did not exist and was created.
-User User4 joined subreddit_73 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_48 {849092 This is post #431 by User4 User4 0 0 [] 2024-11-26 14:29:20.525783 -0500 EST m=+20.376957293}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_48 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 65 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 741 }
-RedditEngine: Processing Downvote
-User User1 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 4
-Updated karma for user User1. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 17 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 27 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 424 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_38 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_22 {143416 This is post #444 by User3 User3 0 0 [] 2024-11-26 14:29:20.907088 -0500 EST m=+20.758270210}}
-RedditEngine: Create Post Operation
-User User3 created a post in subreddit subreddit_22: This is post #444 by User3
-User User3 was automatically added to subreddit_22 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_82}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_82 did not exist and was created.
-User User4 joined subreddit_82 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_46 {661122 This is post #512 by User4 User4 0 0 [] 2024-11-26 14:29:20.985816 -0500 EST m=+20.836999293}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_46 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 626 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User150 DM from User1: This is amazing!}
-RedditEngine: Send DM
-User User150 sent a DM to User1: DM from User1: This is amazing!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 41 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User342 DM from User5: Can you elaborate?}
-RedditEngine: Send DM
-User User342 sent a DM to User2: DM from User5: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 989 }
-RedditEngine: Processing Upvote
-User User3 upvoted post ID 143416 in subreddit subreddit_22. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 38 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 66 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_90 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 539 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_26 {857728 This is post #305 by User4 User4 0 0 [] 2024-11-26 14:29:21.459987 -0500 EST m=+21.311180876}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_26 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 92 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 534 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_96 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User912 DM from User1: This is amazing!}
-RedditEngine: Send DM
-User User912 sent a DM to User1: DM from User1: This is amazing!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 32 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User61 DM from User4: I disagree with this.}
-RedditEngine: Send DM
-User User61 sent a DM to User4: DM from User4: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 83 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 9 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_96 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_42 890 7 Reply from User1: Can you elaborate?}
-RedditEngine: Reply To Comment
-Subreddit subreddit_42 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 716 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_8 816 5 Reply from User4: I disagree with this.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_8 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 74 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 89 User3}
-RedditEngine: Processing Downvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User246 DM from User1: Thanks for sharing.}
-RedditEngine: Send DM
-User User246 sent a DM to User1: DM from User1: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 10 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_30 {776238 This is post #526 by User3 User3 0 0 [] 2024-11-26 14:29:22.353436 -0500 EST m=+22.204648460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_30 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 321 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_47 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User58 DM from User4: Can you elaborate?}
-RedditEngine: Send DM
-User User58 sent a DM to User5: DM from User4: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User435 DM from User1: I disagree with this.}
-RedditEngine: Send DM
-User User435 sent a DM to User3: DM from User1: I disagree with this.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 50 User3}
-RedditEngine: Processing Downvote
-User User2 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 3
-Updated karma for user User1. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 717 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_88 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 43 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 819 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User186 DM from User1: Thanks for sharing.}
-RedditEngine: Send DM
-User User186 sent a DM to User4: DM from User1: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 764 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 81 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 27 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 26 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_63 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_27 {971620 This is post #962 by User1 User1 0 0 [] 2024-11-26 14:29:23.245221 -0500 EST m=+23.096452168}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_27 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 69 User2}
-RedditEngine: Processing Upvote
-User User3 upvoted post ID 143416 in subreddit subreddit_22. Total upvotes: 2
-Updated karma for user User3. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 68 User1}
-RedditEngine: Processing Downvote
-User User4 upvoted post ID 143416 in subreddit subreddit_22. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 77 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 95 User2}
-RedditEngine: Processing Upvote
-User User4 upvoted post ID 143416 in subreddit subreddit_22. Total upvotes: 2
-Updated karma for user User3. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_61 720 12 Reply from User2: I disagree with this.}
-RedditEngine: Reply To Comment
-Subreddit subreddit_61 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 subreddit_42 {428817 This is post #862 by User1 User1 0 0 [] 2024-11-26 14:29:23.408279 -0500 EST m=+23.259513085}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_42 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User652 DM from User4: Thanks for sharing.}
-RedditEngine: Send DM
-User User652 sent a DM to User1: DM from User4: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 358 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 48 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_78 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 189 }
-RedditEngine: Processing Upvote
-User User1 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 4
-Updated karma for user User1. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 311 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_14 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_62}
-RedditEngine: User Join SubReddit Operation
-User User4 joined subreddit_62 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 31 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 776 }
-RedditEngine: Processing Upvote
-Subreddit subreddit_24 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 75 User3}
-RedditEngine: Processing Downvote
-User User2 upvoted post ID 720717 in subreddit subreddit_67. Total upvotes: 3
-Updated karma for user User1. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 77 User5}
-RedditEngine: Processing Downvote
-Subreddit subreddit_69 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 subreddit_47 551 97 Reply from User4: This is amazing!}
-RedditEngine: Reply To Comment
-Post with ID 551 does not exist in subreddit subreddit_47.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 73 User3}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 20}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 32 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_64}
-RedditEngine: User Join SubReddit Operation
-Subreddit subreddit_64 did not exist and was created.
-User User2 joined subreddit_64 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 95 User2}
-RedditEngine: Processing Upvote
-User User3 upvoted post ID 143416 in subreddit subreddit_22. Total upvotes: 3
-Updated karma for user User3. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 subreddit_77 {445669 This is post #430 by User3 User3 0 0 [] 2024-11-26 14:29:24.689242 -0500 EST m=+24.540502918}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_77 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 subreddit_85 {37856 This is post #634 by User2 User2 0 0 [] 2024-11-26 14:29:24.748944 -0500 EST m=+24.600206460}}
-RedditEngine: Create Post Operation
-Subreddit subreddit_85 does not exist.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 subreddit_97}
-RedditEngine: User Join SubReddit Operation
-User User5 is already a member of subreddit_97 subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 47 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_83 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 18 User5}
-RedditEngine: Processing Upvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User727 DM from User2: Thanks for sharing.}
-RedditEngine: Send DM
-User User727 sent a DM to User4: DM from User2: Thanks for sharing.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 20 User1}
-RedditEngine: Processing Downvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 51 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 352 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 5 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_62 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 148 }
-RedditEngine: Processing Downvote
-Subreddit subreddit_98 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 75 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User396 DM from User5: Can you elaborate?}
-RedditEngine: Send DM
-User User396 sent a DM to User2: DM from User5: Can you elaborate?
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 93 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_76 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 true}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 45 User1}
-RedditEngine: Processing Upvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 22 User4}
-RedditEngine: Processing Upvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 2 User4}
-RedditEngine: Processing Downvote
-Subreddit subreddit_66 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 63 User2}
-RedditEngine: Processing Upvote
-Subreddit subreddit_97 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 false}
-RedditEngine: Unknown message type received
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 69 User2}
-RedditEngine: Processing Downvote
-Subreddit subreddit_16 does not exist or has no posts.
-RedditEngine: Exiting Receive method
-Finished simulating all users.
+Initializing New Engine
+User 5 registered successfully.
+User 8 registered successfully.
+User 2 registered successfully.
+User 7 registered successfully.
+User 6 registered successfully.
+User 10 registered successfully.
+User 3 registered successfully.
+User 3 joined subreddit_65 subreddit.
+User 4 registered successfully.
+User 9 registered successfully.
+User 1 registered successfully.
+User User315 sent a DM to 7: DM from 4: Time travel is overrated.
+User User288 sent a DM to 2: DM from 4: This made my goldfish do a backflip.
+User 1 joined subreddit_73 subreddit.
+User User814 sent a DM to 10: DM from 3: The moon is just a hologram!
+User User844 sent a DM to 3: DM from 5: The cake is a lie!
+User User51 sent a DM to 8: DM from 8: Is anyone else craving tacos right now?
+User 6 joined subreddit_51 subreddit.
+User 7 joined subreddit_0 subreddit.
+User 4 joined subreddit_79 subreddit.
+User 9 joined subreddit_91 subreddit.
+User User889 sent a DM to 6: DM from 10: This reminds me of my pet hamster, Gerald.
+User User954 sent a DM to 9: DM from 1: Why are ducks so underrated?
+User User200 sent a DM to 2: DM from 2: Pineapples on pizza? Let's discuss.
+User 10 joined subreddit_53 subreddit.
+User User234 sent a DM to 8: DM from 4: Time travel is overrated.
+User 7 joined subreddit_89 subreddit.
+User User634 sent a DM to 10: DM from 7: Why are ducks so underrated?
+User 10 joined subreddit_95 subreddit.
+User 2 joined subreddit_73 subreddit.
+User 7 joined subreddit_23 subreddit.
+User User16 sent a DM to 1: DM from 3: Time travel is overrated.
+User 1 joined subreddit_6 subreddit.
+User User437 sent a DM to 9: DM from 7: Is anyone else craving tacos right now?
+User User43 sent a DM to 1: DM from 4: This post smells like teen spirit.
+User 5 joined subreddit_40 subreddit.
+User 10 joined subreddit_81 subreddit.
+User 5 created a post in subreddit subreddit_79: This is post #498 by 5
+User 5 was added to subreddit_79 subreddit.
+User 7 joined subreddit_67 subreddit.
+User 4 joined subreddit_90 subreddit.
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 1
+User 4 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 2
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 3
+User 5 joined subreddit_68 subreddit.
+User User181 sent a DM to 4: DM from 6: I'm typing this with my toes.
+User 4 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 4
+User 4 downvoted post ID 367066 in subreddit subreddit_79. Total upvotes: 3
+User User75 sent a DM to 2: DM from 8: The sky just winked at me. Weird.
+User 4 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 4
+User User860 sent a DM to 4: DM from 3: Did you know otters hold hands?
+User User281 sent a DM to 4: DM from 9: I'm 90% sure this is a simulation.
+User User423 sent a DM to 4: DM from 7: I can't believe it's not butter!
+User 6 joined subreddit_70 subreddit.
+User 8 joined subreddit_35 subreddit.
+User 1 joined subreddit_66 subreddit.
+User User668 sent a DM to 6: DM from 1: This reminds me of my pet hamster, Gerald.
+User User126 sent a DM to 5: DM from 3: This reminds me of my pet hamster, Gerald.
+User User262 sent a DM to 9: DM from 2: This post smells like teen spirit.
+User User873 sent a DM to 9: DM from 4: Who let the dogs out?
+User 7 joined subreddit_41 subreddit.
+User 9 joined subreddit_8 subreddit.
+User 7 joined subreddit_34 subreddit.
+User User801 sent a DM to 1: DM from 8: I'm not crying, you're crying.
+User 8 joined subreddit_21 subreddit.
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 5
+User 4 joined subreddit_74 subreddit.
+User 4 joined subreddit_80 subreddit.
+User User809 sent a DM to 6: DM from 3: The sky just winked at me. Weird.
+User User813 sent a DM to 2: DM from 6: The sky just winked at me. Weird.
+User User271 sent a DM to 4: DM from 10: Aliens are among us. Trust me.
+User 10 joined subreddit_25 subreddit.
+User 8 created a post in subreddit subreddit_70: This is post #856 by 8
+User 8 was added to subreddit_70 subreddit.
+User 7 joined subreddit_25 subreddit.
+User 8 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 1
+User User143 sent a DM to 5: DM from 8: Who let the dogs out?
+User 8 joined subreddit_31 subreddit.
+User 3 joined subreddit_92 subreddit.
+User 5 downvoted post ID 367066 in subreddit subreddit_79. Total upvotes: 4
+User User352 sent a DM to 5: DM from 4: One does not simply ignore this post.
+User User318 sent a DM to 2: DM from 2: I can't believe it's not butter!
+User 6 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 2
+User 4 joined subreddit_20 subreddit.
+User User922 sent a DM to 8: DM from 8: I can't believe it's not butter!
+User User489 sent a DM to 10: DM from 5: I'm typing this with my toes.
+User User557 sent a DM to 8: DM from 2: I'm typing this with my toes.
+User User67 sent a DM to 7: DM from 7: The sky just winked at me. Weird.
+User 6 downvoted post ID 272444 in subreddit subreddit_70. Total upvotes: 1
+User 7 joined subreddit_38 subreddit.
+User User713 sent a DM to 8: DM from 4: One does not simply ignore this post.
+User 9 joined subreddit_67 subreddit.
+User User833 sent a DM to 7: DM from 5: Who let the dogs out?
+User User118 sent a DM to 10: DM from 9: The sky just winked at me. Weird.
+User 1 created a post in subreddit subreddit_74: This is post #364 by 1
+User 1 was added to subreddit_74 subreddit.
+User User293 sent a DM to 4: DM from 3: Why are ducks so underrated?
+User 6 downvoted post ID 272444 in subreddit subreddit_70. Total upvotes: 0
+User 10 joined subreddit_59 subreddit.
+User User152 sent a DM to 7: DM from 10: I'm not crying, you're crying.
+User 4 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 5
+User 1 upvoted post 913876 in subreddit subreddit_74. Total upvotes: 1
+User User938 sent a DM to 9: DM from 7: One does not simply ignore this post.
+User 5 downvoted post ID 367066 in subreddit subreddit_79. Total upvotes: 4
+User 1 created a post in subreddit subreddit_67: This is post #13 by 1
+User 1 was added to subreddit_67 subreddit.
+User User281 sent a DM to 3: DM from 3: Aliens are among us. Trust me.
+User User699 sent a DM to 10: DM from 2: I'm not crying, you're crying.
+User 8 downvoted post ID 272444 in subreddit subreddit_70. Total upvotes: 0
+User 4 joined subreddit_12 subreddit.
+User 10 joined subreddit_46 subreddit.
+User 1 upvoted post 913876 in subreddit subreddit_74. Total upvotes: 2
+User 8 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 1
+User User378 sent a DM to 6: DM from 6: I can't believe it's not butter!
+User 5 joined subreddit_39 subreddit.
+User User823 sent a DM to 9: DM from 4: Pineapples on pizza? Let's discuss.
+User 9 created a post in subreddit subreddit_12: This is post #620 by 9
+User 9 was added to subreddit_12 subreddit.
+User 3 joined subreddit_77 subreddit.
+User 8 downvoted post ID 272444 in subreddit subreddit_70. Total upvotes: 0
+User 7 joined subreddit_57 subreddit.
+User 4 upvoted post 913876 in subreddit subreddit_74. Total upvotes: 3
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 5
+User 6 joined subreddit_60 subreddit.
+User User847 sent a DM to 3: DM from 9: Who let the dogs out?
+User 4 joined subreddit_72 subreddit.
+User User902 sent a DM to 5: DM from 5: Did you know otters hold hands?
+User 9 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 1
+User User308 sent a DM to 7: DM from 7: I'm not crying, you're crying.
+User 6 created a post in subreddit subreddit_65: This is post #341 by 6
+User 6 was added to subreddit_65 subreddit.
+User 2 created a post in subreddit subreddit_65: This is post #866 by 2
+User 2 was added to subreddit_65 subreddit.
+User 6 joined subreddit_71 subreddit.
+User 10 joined subreddit_45 subreddit.
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 6
+User User141 sent a DM to 5: DM from 3: The sky just winked at me. Weird.
+User 9 created a post in subreddit subreddit_66: This is post #969 by 9
+User 9 was added to subreddit_66 subreddit.
+User 1 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 2
+User User194 sent a DM to 7: DM from 6: This made my goldfish do a backflip.
+User User680 sent a DM to 1: DM from 2: I'm 90% sure this is a simulation.
+User 9 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 1
+User 1 downvoted post ID 913876 in subreddit subreddit_74. Total upvotes: 2
+User User617 sent a DM to 2: DM from 9: Time travel is overrated.
+User 6 joined subreddit_53 subreddit.
+User 2 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 1
+User User841 sent a DM to 6: DM from 5: Bananas are a government conspiracy!
+User 9 downvoted post ID 786310 in subreddit subreddit_66. Total upvotes: 0
+User User82 sent a DM to 10: DM from 2: This reminds me of my pet hamster, Gerald.
+User User116 sent a DM to 3: DM from 1: Is anyone else craving tacos right now?
+User 4 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 7
+User 3 joined subreddit_21 subreddit.
+User 10 created a post in subreddit subreddit_45: This is post #759 by 10
+User 4 joined subreddit_33 subreddit.
+User 9 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 3
+User 4 joined subreddit_64 subreddit.
+User 5 joined subreddit_81 subreddit.
+User 6 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 1
+User User528 sent a DM to 8: DM from 10: This reminds me of my pet hamster, Gerald.
+User 5 joined subreddit_54 subreddit.
+User User901 sent a DM to 2: DM from 8: I'm 90% sure this is a simulation.
+User 9 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 1
+User 10 upvoted post 353516 in subreddit subreddit_45. Total upvotes: 1
+User 1 joined subreddit_19 subreddit.
+User 6 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 2
+User 8 downvoted post ID 272444 in subreddit subreddit_70. Total upvotes: 1
+User 5 created a post in subreddit subreddit_41: This is post #63 by 5
+User 5 was added to subreddit_41 subreddit.
+User 9 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 2
+User 4 joined subreddit_6 subreddit.
+User 2 downvoted post ID 291065 in subreddit subreddit_65. Total upvotes: 0
+User 6 joined subreddit_24 subreddit.
+User 9 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 2
+User 1 joined subreddit_62 subreddit.
+User 8 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 2
+User 1 created a post in subreddit subreddit_23: This is post #920 by 1
+User 1 was added to subreddit_23 subreddit.
+User 7 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 3
+User User863 sent a DM to 7: DM from 10: The cake is a lie!
+User User610 sent a DM to 4: DM from 5: One does not simply ignore this post.
+User 3 joined subreddit_91 subreddit.
+User User136 sent a DM to 1: DM from 9: I'm 90% sure this is a simulation.
+User 1 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 1
+User User754 sent a DM to 9: DM from 6: This reminds me of my pet hamster, Gerald.
+User 2 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 1
+User User402 sent a DM to 9: DM from 7: The cake is a lie!
+User 8 created a post in subreddit subreddit_59: This is post #175 by 8
+User 8 was added to subreddit_59 subreddit.
+User 7 joined subreddit_60 subreddit.
+User 2 downvoted post ID 291065 in subreddit subreddit_65. Total upvotes: 0
+User 9 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 2
+User 1 downvoted post ID 786310 in subreddit subreddit_66. Total upvotes: 0
+User 5 upvoted post 589816 in subreddit subreddit_41. Total upvotes: 1
+User 8 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 3
+User 7 created a post in subreddit subreddit_80: This is post #505 by 7
+User 7 was added to subreddit_80 subreddit.
+User 2 created a post in subreddit subreddit_35: This is post #99 by 2
+User 2 was added to subreddit_35 subreddit.
+User 4 created a post in subreddit subreddit_19: This is post #887 by 4
+User 4 was added to subreddit_19 subreddit.
+User 8 upvoted post 914221 in subreddit subreddit_35. Total upvotes: 1
+User 1 joined subreddit_72 subreddit.
+User 9 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 3
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 8
+User 1 downvoted post ID 913876 in subreddit subreddit_74. Total upvotes: 1
+User User105 sent a DM to 10: DM from 8: I can't believe it's not butter!
+User 3 downvoted post ID 896763 in subreddit subreddit_65. Total upvotes: 0
+User User985 sent a DM to 3: DM from 2: The sky just winked at me. Weird.
+User 8 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 1 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 2
+User 9 joined subreddit_48 subreddit.
+User User564 sent a DM to 10: DM from 5: I'm not crying, you're crying.
+User 4 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 4
+User 8 upvoted post 914221 in subreddit subreddit_35. Total upvotes: 1
+User 1 upvoted post 866883 in subreddit subreddit_19. Total upvotes: 1
+User 9 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 1
+User 8 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 4 upvoted post 866883 in subreddit subreddit_19. Total upvotes: 2
+User 4 created a post in subreddit subreddit_20: This is post #688 by 4
+User User253 sent a DM to 4: DM from 10: Why are ducks so underrated?
+User 3 created a post in subreddit subreddit_90: This is post #361 by 3
+User 3 was added to subreddit_90 subreddit.
+User 8 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 1
+User 10 joined subreddit_82 subreddit.
+User 7 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 3
+User 9 created a post in subreddit subreddit_34: This is post #106 by 9
+User 9 was added to subreddit_34 subreddit.
+User 6 created a post in subreddit subreddit_12: This is post #187 by 6
+User 6 was added to subreddit_12 subreddit.
+User 9 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 1
+User User15 sent a DM to 3: DM from 1: Pineapples on pizza? Let's discuss.
+User 10 downvoted post ID 157038 in subreddit subreddit_59. Total upvotes: 0
+User 4 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 5
+User 9 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 2
+User 4 downvoted post ID 913876 in subreddit subreddit_74. Total upvotes: 0
+User 7 upvoted post 724715 in subreddit subreddit_80. Total upvotes: 1
+User 10 joined subreddit_27 subreddit.
+User 3 upvoted post 732712 in subreddit subreddit_90. Total upvotes: 1
+User 2 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 1
+User User839 sent a DM to 1: DM from 4: This post smells like teen spirit.
+User 1 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 2
+User 2 joined subreddit_50 subreddit.
+User 6 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 6
+User User219 sent a DM to 1: DM from 7: Pineapples on pizza? Let's discuss.
+User 4 upvoted post 732712 in subreddit subreddit_90. Total upvotes: 2
+User 2 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 1
+User 10 joined subreddit_11 subreddit.
+User 8 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 4
+User 3 upvoted post 732712 in subreddit subreddit_90. Total upvotes: 3
+User 9 created a post in subreddit subreddit_66: This is post #592 by 9
+User User355 sent a DM to 6: DM from 6: I'm not crying, you're crying.
+User 6 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 2
+User 1 upvoted post 913876 in subreddit subreddit_74. Total upvotes: 1
+User 1 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 3
+User 7 upvoted post 724715 in subreddit subreddit_80. Total upvotes: 2
+User 2 joined subreddit_17 subreddit.
+User 4 created a post in subreddit subreddit_70: This is post #776 by 4
+User 4 was added to subreddit_70 subreddit.
+User 10 joined subreddit_15 subreddit.
+User User466 sent a DM to 4: DM from 6: Does anyone else hear that faint buzzing?
+User 7 joined subreddit_87 subreddit.
+User 8 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 2 created a post in subreddit subreddit_39: This is post #901 by 2
+User 2 was added to subreddit_39 subreddit.
+User 5 joined subreddit_18 subreddit.
+User 6 upvoted post 630314 in subreddit subreddit_70. Total upvotes: 1
+User User850 sent a DM to 1: DM from 4: The moon is just a hologram!
+User 2 upvoted post 914221 in subreddit subreddit_35. Total upvotes: 1
+User User970 sent a DM to 3: DM from 7: Bananas are a government conspiracy!
+User User360 sent a DM to 9: DM from 1: This made my goldfish do a backflip.
+User 9 joined subreddit_73 subreddit.
+User 7 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 1
+User 7 downvoted post ID 589816 in subreddit subreddit_41. Total upvotes: 0
+User 4 joined subreddit_87 subreddit.
+User User740 sent a DM to 2: DM from 3: I'm typing this with my toes.
+User User615 sent a DM to 5: DM from 10: Bananas are a government conspiracy!
+User 6 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 7
+User 1 downvoted post ID 786310 in subreddit subreddit_66. Total upvotes: 2
+User 1 joined subreddit_88 subreddit.
+User 5 joined subreddit_19 subreddit.
+User 7 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 4
+User 4 upvoted post 226114 in subreddit subreddit_20. Total upvotes: 1
+User 4 upvoted post 630314 in subreddit subreddit_70. Total upvotes: 2
+User 6 downvoted post ID 291065 in subreddit subreddit_65. Total upvotes: 0
+User 8 created a post in subreddit subreddit_27: This is post #57 by 8
+User 8 was added to subreddit_27 subreddit.
+User User263 sent a DM to 10: DM from 2: The moon is just a hologram!
+User 9 created a post in subreddit subreddit_62: This is post #645 by 9
+User 9 was added to subreddit_62 subreddit.
+User 4 upvoted post 226114 in subreddit subreddit_20. Total upvotes: 2
+User 1 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 2
+User 8 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 1
+User 8 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 2
+User 10 downvoted post ID 856457 in subreddit subreddit_27. Total upvotes: 0
+User 2 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 3
+User 1 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 1
+User 7 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 5
+User 9 downvoted post ID 505725 in subreddit subreddit_34. Total upvotes: 0
+User 4 downvoted post ID 120601 in subreddit subreddit_12. Total upvotes: 0
+User User875 sent a DM to 9: DM from 8: This reminds me of my pet hamster, Gerald.
+User 10 upvoted post 856457 in subreddit subreddit_27. Total upvotes: 1
+User 4 downvoted post ID 866883 in subreddit subreddit_19. Total upvotes: 1
+User 6 joined subreddit_10 subreddit.
+User 1 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 0
+User 8 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 9 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 1
+User 9 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 8
+User 8 downvoted post ID 272444 in subreddit subreddit_70. Total upvotes: 3
+User 3 joined subreddit_61 subreddit.
+User 6 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 4
+User 8 joined subreddit_17 subreddit.
+User 6 joined subreddit_29 subreddit.
+User 2 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 5
+User 3 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 1
+User 1 downvoted post ID 964591 in subreddit subreddit_62. Total upvotes: 0
+User User214 sent a DM to 6: DM from 1: Why are ducks so underrated?
+User User704 sent a DM to 6: DM from 3: Why are ducks so underrated?
+User User274 sent a DM to 7: DM from 6: I'm 90% sure this is a simulation.
+User 2 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 6
+User 5 upvoted post 866883 in subreddit subreddit_19. Total upvotes: 2
+User 4 upvoted post 866883 in subreddit subreddit_19. Total upvotes: 3
+User 9 created a post in subreddit subreddit_51: This is post #712 by 9
+User 9 was added to subreddit_51 subreddit.
+User 8 joined subreddit_63 subreddit.
+User 3 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 2
+User 4 downvoted post ID 724715 in subreddit subreddit_80. Total upvotes: 1
+User User176 sent a DM to 4: DM from 9: Did you know otters hold hands?
+User User561 sent a DM to 1: DM from 6: Who let the dogs out?
+User 8 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 3
+User 8 created a post in subreddit subreddit_6: This is post #707 by 8
+User 8 was added to subreddit_6 subreddit.
+User 9 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 3
+User 6 downvoted post ID 896763 in subreddit subreddit_65. Total upvotes: 5
+User 2 downvoted post ID 896763 in subreddit subreddit_65. Total upvotes: 4
+User 3 joined subreddit_79 subreddit.
+User 5 downvoted post ID 589816 in subreddit subreddit_41. Total upvotes: 0
+User User282 sent a DM to 8: DM from 6: The cake is a lie!
+User 2 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 3
+User 1 downvoted post ID 171128 in subreddit subreddit_66. Total upvotes: 0
+User 7 created a post in subreddit subreddit_95: This is post #103 by 7
+User 7 was added to subreddit_95 subreddit.
+User 8 upvoted post 630314 in subreddit subreddit_70. Total upvotes: 3
+User 8 upvoted post 914221 in subreddit subreddit_35. Total upvotes: 1
+User 9 downvoted post ID 964591 in subreddit subreddit_62. Total upvotes: 0
+User 9 downvoted post ID 505725 in subreddit subreddit_34. Total upvotes: 0
+User User998 sent a DM to 4: DM from 8: Aliens are among us. Trust me.
+User User462 sent a DM to 2: DM from 5: I can't believe it's not butter!
+User 2 joined subreddit_6 subreddit.
+User 8 joined subreddit_11 subreddit.
+User 6 upvoted post 630314 in subreddit subreddit_70. Total upvotes: 4
+User 1 created a post in subreddit subreddit_62: This is post #419 by 1
+User 6 joined subreddit_67 subreddit.
+User 4 created a post in subreddit subreddit_19: This is post #136 by 4
+User 9 upvoted post 505725 in subreddit subreddit_34. Total upvotes: 1
+User 1 downvoted post ID 913876 in subreddit subreddit_74. Total upvotes: 0
+User 5 upvoted post 589816 in subreddit subreddit_41. Total upvotes: 1
+User 2 downvoted post ID 272758 in subreddit subreddit_6. Total upvotes: 0
+User User165 sent a DM to 10: DM from 4: This post smells like teen spirit.
+User User264 sent a DM to 9: DM from 1: I'm 90% sure this is a simulation.
+User User731 sent a DM to 6: DM from 10: I'm typing this with my toes.
+User 6 upvoted post 425315 in subreddit subreddit_51. Total upvotes: 1
+User 7 created a post in subreddit subreddit_6: This is post #326 by 7
+User 7 was added to subreddit_6 subreddit.
+User 4 downvoted post ID 630314 in subreddit subreddit_70. Total upvotes: 3
+User 4 upvoted post 811736 in subreddit subreddit_6. Total upvotes: 1
+User User364 sent a DM to 5: DM from 8: Why are ducks so underrated?
+User 2 upvoted post 90773 in subreddit subreddit_39. Total upvotes: 1
+User 5 upvoted post 589816 in subreddit subreddit_41. Total upvotes: 2
+User 10 upvoted post 856457 in subreddit subreddit_27. Total upvotes: 2
+User User225 sent a DM to 7: DM from 7: Bananas are a government conspiracy!
+User 4 created a post in subreddit subreddit_74: This is post #948 by 4
+User 3 downvoted post ID 291065 in subreddit subreddit_65. Total upvotes: 2
+User 9 downvoted post ID 171128 in subreddit subreddit_66. Total upvotes: 0
+User 1 created a post in subreddit subreddit_77: This is post #958 by 1
+User 1 was added to subreddit_77 subreddit.
+User User421 sent a DM to 4: DM from 9: The cake is a lie!
+User 9 joined subreddit_33 subreddit.
+User 6 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 4
+User User197 sent a DM to 9: DM from 6: The cake is a lie!
+User 5 joined subreddit_42 subreddit.
+User 3 downvoted post ID 732712 in subreddit subreddit_90. Total upvotes: 2
+User 10 joined subreddit_75 subreddit.
+User 10 downvoted post ID 157038 in subreddit subreddit_59. Total upvotes: 2
+User 1 upvoted post 272758 in subreddit subreddit_6. Total upvotes: 1
+User User880 sent a DM to 6: DM from 3: This post smells like teen spirit.
+User 9 joined subreddit_17 subreddit.
+User 6 upvoted post 425315 in subreddit subreddit_51. Total upvotes: 2
+User 4 upvoted post 811736 in subreddit subreddit_6. Total upvotes: 2
+User 8 downvoted post ID 157038 in subreddit subreddit_59. Total upvotes: 1
+User 6 joined subreddit_68 subreddit.
+User 2 upvoted post 90773 in subreddit subreddit_39. Total upvotes: 2
+User 10 upvoted post 375447 in subreddit subreddit_95. Total upvotes: 1
+User 8 upvoted post 272758 in subreddit subreddit_6. Total upvotes: 2
+User 8 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User User370 sent a DM to 9: DM from 3: The moon is just a hologram!
+User 5 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 9
+User 3 upvoted post 153361 in subreddit subreddit_77. Total upvotes: 1
+User 9 upvoted post 505725 in subreddit subreddit_34. Total upvotes: 2
+User 4 upvoted post 825910 in subreddit subreddit_19. Total upvotes: 1
+User 4 upvoted post 866883 in subreddit subreddit_19. Total upvotes: 4
+User 9 created a post in subreddit subreddit_31: This is post #951 by 9
+User 9 was added to subreddit_31 subreddit.
+User 8 upvoted post 418300 in subreddit subreddit_31. Total upvotes: 1
+User 5 joined subreddit_77 subreddit.
+User User82 sent a DM to 6: DM from 4: Is anyone else craving tacos right now?
+User 6 downvoted post ID 291065 in subreddit subreddit_65. Total upvotes: 1
+User 2 upvoted post 272758 in subreddit subreddit_6. Total upvotes: 3
+User 7 joined subreddit_12 subreddit.
+User User923 sent a DM to 3: DM from 7: Is anyone else craving tacos right now?
+User User907 sent a DM to 3: DM from 2: Did you know otters hold hands?
+User 6 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 2
+User 7 upvoted post 272758 in subreddit subreddit_6. Total upvotes: 4
+User 10 downvoted post ID 353516 in subreddit subreddit_45. Total upvotes: 0
+User 3 joined subreddit_10 subreddit.
+User 9 joined subreddit_75 subreddit.
+User 10 upvoted post 353516 in subreddit subreddit_45. Total upvotes: 1
+User User461 sent a DM to 10: DM from 7: I'm 90% sure this is a simulation.
+User 1 upvoted post 964591 in subreddit subreddit_62. Total upvotes: 1
+User 7 upvoted post 931508 in subreddit subreddit_12. Total upvotes: 9
+User 4 upvoted post 120601 in subreddit subreddit_12. Total upvotes: 1
+User 3 joined subreddit_15 subreddit.
+User User413 sent a DM to 6: DM from 8: Does anyone else hear that faint buzzing?
+User 2 upvoted post 896763 in subreddit subreddit_65. Total upvotes: 5
+User User83 sent a DM to 9: DM from 1: This post smells like teen spirit.
+User 9 upvoted post 505725 in subreddit subreddit_34. Total upvotes: 3
+User 1 upvoted post 171128 in subreddit subreddit_66. Total upvotes: 1
+User 2 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 4 created a post in subreddit subreddit_50: This is post #722 by 4
+User 4 was added to subreddit_50 subreddit.
+User 2 created a post in subreddit subreddit_70: This is post #607 by 2
+User 2 was added to subreddit_70 subreddit.
+User 1 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 6
+User 3 joined subreddit_35 subreddit.
+User User153 sent a DM to 1: DM from 7: This made my goldfish do a backflip.
+User 6 joined subreddit_54 subreddit.
+User User381 sent a DM to 8: DM from 2: The sky just winked at me. Weird.
+User User261 sent a DM to 10: DM from 5: The cake is a lie!
+User 9 downvoted post ID 505725 in subreddit subreddit_34. Total upvotes: 2
+User 3 created a post in subreddit subreddit_10: This is post #903 by 3
+User 9 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 4
+User 8 upvoted post 418300 in subreddit subreddit_31. Total upvotes: 2
+User 2 downvoted post ID 90773 in subreddit subreddit_39. Total upvotes: 1
+User 5 created a post in subreddit subreddit_24: This is post #322 by 5
+User 5 was added to subreddit_24 subreddit.
+User 10 created a post in subreddit subreddit_66: This is post #653 by 10
+User 10 was added to subreddit_66 subreddit.
+User User97 sent a DM to 7: DM from 1: I can't believe it's not butter!
+User User32 sent a DM to 8: DM from 9: Does anyone else hear that faint buzzing?
+User 1 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 5
+User User231 sent a DM to 2: DM from 6: This post smells like teen spirit.
+User User34 sent a DM to 6: DM from 2: I'm not crying, you're crying.
+User 5 upvoted post 90773 in subreddit subreddit_39. Total upvotes: 2
+User 8 downvoted post ID 811736 in subreddit subreddit_6. Total upvotes: 1
+User 9 downvoted post ID 418300 in subreddit subreddit_31. Total upvotes: 1
+User 3 downvoted post ID 732712 in subreddit subreddit_90. Total upvotes: 1
+User 8 downvoted post ID 157038 in subreddit subreddit_59. Total upvotes: 0
+User 6 downvoted post ID 847801 in subreddit subreddit_24. Total upvotes: 0
+User 8 created a post in subreddit subreddit_89: This is post #5 by 8
+User 8 was added to subreddit_89 subreddit.
+User 6 downvoted post ID 220928 in subreddit subreddit_10. Total upvotes: 0
+User User296 sent a DM to 10: DM from 8: The cake is a lie!
+User User64 sent a DM to 2: DM from 5: Did you know otters hold hands?
+User 7 downvoted post ID 698384 in subreddit subreddit_23. Total upvotes: 5
+User 10 downvoted post ID 375447 in subreddit subreddit_95. Total upvotes: 0
+User 7 joined subreddit_28 subreddit.
+User 2 created a post in subreddit subreddit_34: This is post #225 by 2
+User 2 was added to subreddit_34 subreddit.
+User 7 created a post in subreddit subreddit_19: This is post #933 by 7
+User 7 was added to subreddit_19 subreddit.
+User User772 sent a DM to 4: DM from 6: Pineapples on pizza? Let's discuss.
+User 7 created a post in subreddit subreddit_64: This is post #98 by 7
+User 7 was added to subreddit_64 subreddit.
+User 8 downvoted post ID 157038 in subreddit subreddit_59. Total upvotes: 0
+User 6 joined subreddit_66 subreddit.
+User 6 joined subreddit_0 subreddit.
+User 5 upvoted post 589816 in subreddit subreddit_41. Total upvotes: 3
+User User708 sent a DM to 4: DM from 1: Pineapples on pizza? Let's discuss.
+User 7 downvoted post ID 698384 in subreddit subreddit_23. Total upvotes: 4
+User 2 downvoted post ID 925927 in subreddit subreddit_50. Total upvotes: 0
+User 8 downvoted post ID 157038 in subreddit subreddit_59. Total upvotes: 0
+User User118 sent a DM to 4: DM from 3: Pineapples on pizza? Let's discuss.
+User 6 created a post in subreddit subreddit_27: This is post #304 by 6
+User 6 was added to subreddit_27 subreddit.
+User 9 created a post in subreddit subreddit_95: This is post #643 by 9
+User 9 was added to subreddit_95 subreddit.
+User 4 downvoted post ID 724715 in subreddit subreddit_80. Total upvotes: 0
+User 2 downvoted post ID 87021 in subreddit subreddit_70. Total upvotes: 0
+User 8 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 1
+User 7 downvoted post ID 387216 in subreddit subreddit_89. Total upvotes: 0
+User 3 joined subreddit_9 subreddit.
+User 1 joined subreddit_37 subreddit.
+User 4 downvoted post ID 67639 in subreddit subreddit_74. Total upvotes: 0
+User 2 upvoted post 272758 in subreddit subreddit_6. Total upvotes: 5
+User 10 upvoted post 353516 in subreddit subreddit_45. Total upvotes: 2
+User 5 downvoted post ID 847801 in subreddit subreddit_24. Total upvotes: 0
+User 6 downvoted post ID 171128 in subreddit subreddit_66. Total upvotes: 0
+User 7 created a post in subreddit subreddit_82: This is post #799 by 7
+User 7 was added to subreddit_82 subreddit.
+User 4 downvoted post ID 67639 in subreddit subreddit_74. Total upvotes: 0
+User 8 upvoted post 418300 in subreddit subreddit_31. Total upvotes: 2
+User 10 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 2
+User 6 downvoted post ID 201174 in subreddit subreddit_27. Total upvotes: 0
+User 5 downvoted post ID 90773 in subreddit subreddit_39. Total upvotes: 1
+User 4 upvoted post 925927 in subreddit subreddit_50. Total upvotes: 1
+User 8 joined subreddit_80 subreddit.
+User 2 downvoted post ID 87021 in subreddit subreddit_70. Total upvotes: 0
+User 2 upvoted post 90773 in subreddit subreddit_39. Total upvotes: 2
+User 1 joined subreddit_46 subreddit.
+User 3 upvoted post 914221 in subreddit subreddit_35. Total upvotes: 1
+User 3 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 3
+User 10 downvoted post ID 201174 in subreddit subreddit_27. Total upvotes: 0
+User 7 downvoted post ID 153144 in subreddit subreddit_95. Total upvotes: 0
+User 1 upvoted post 913876 in subreddit subreddit_74. Total upvotes: 1
+User 9 upvoted post 786310 in subreddit subreddit_66. Total upvotes: 6
+User 3 downvoted post ID 220928 in subreddit subreddit_10. Total upvotes: 0
+User 8 upvoted post 201174 in subreddit subreddit_27. Total upvotes: 1
+User 6 downvoted post ID 896763 in subreddit subreddit_65. Total upvotes: 4
+User 1 joined subreddit_39 subreddit.
+User 6 downvoted post ID 931508 in subreddit subreddit_12. Total upvotes: 8
+User 9 upvoted post 171128 in subreddit subreddit_66. Total upvotes: 1
+User 2 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 7 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 5
+User 6 upvoted post 425315 in subreddit subreddit_51. Total upvotes: 3
+User 4 upvoted post 811736 in subreddit subreddit_6. Total upvotes: 2
+User 6 downvoted post ID 847801 in subreddit subreddit_24. Total upvotes: 0
+User 9 upvoted post 418300 in subreddit subreddit_31. Total upvotes: 3
+User 10 created a post in subreddit subreddit_95: This is post #457 by 10
+User 5 upvoted post 153361 in subreddit subreddit_77. Total upvotes: 2
+User 2 downvoted post ID 90773 in subreddit subreddit_39. Total upvotes: 1
+User 7 upvoted post 698384 in subreddit subreddit_23. Total upvotes: 6
+User 5 upvoted post 847801 in subreddit subreddit_24. Total upvotes: 1
+User 8 upvoted post 157038 in subreddit subreddit_59. Total upvotes: 3
+User 6 upvoted post 630314 in subreddit subreddit_70. Total upvotes: 4
+User User491 sent a DM to 8: DM from 7: Does anyone else hear that faint buzzing?
+User User783 sent a DM to 8: DM from 7: I'm not crying, you're crying.
+User 2 upvoted post 536434 in subreddit subreddit_34. Total upvotes: 1
+User 4 upvoted post 724715 in subreddit subreddit_80. Total upvotes: 1
+User 3 upvoted post 153361 in subreddit subreddit_77. Total upvotes: 3
+User 8 downvoted post ID 387216 in subreddit subreddit_89. Total upvotes: 0
+User 9 downvoted post ID 446043 in subreddit subreddit_62. Total upvotes: 0
+User User800 sent a DM to 7: DM from 6: One does not simply ignore this post.
+User 1 upvoted post 964591 in subreddit subreddit_62. Total upvotes: 2
+User User258 sent a DM to 7: DM from 7: Who let the dogs out?
+User User284 sent a DM to 2: DM from 2: This reminds me of my pet hamster, Gerald.
+User 6 joined subreddit_43 subreddit.
+User 2 upvoted post 925927 in subreddit subreddit_50. Total upvotes: 2
+User 5 joined subreddit_89 subreddit.
+User 4 downvoted post ID 459693 in subreddit subreddit_64. Total upvotes: 0
+User 1 upvoted post 90773 in subreddit subreddit_39. Total upvotes: 2
+User 8 upvoted post 272758 in subreddit subreddit_6. Total upvotes: 6
+User 6 downvoted post ID 33477 in subreddit subreddit_67. Total upvotes: 0
+User User262 sent a DM to 7: DM from 6: Time travel is overrated.
+User 5 downvoted post ID 589816 in subreddit subreddit_41. Total upvotes: 2
+User User364 sent a DM to 6: DM from 6: I'm not crying, you're crying.
+User 8 upvoted post 418300 in subreddit subreddit_31. Total upvotes: 4
+User 7 upvoted post 589816 in subreddit subreddit_41. Total upvotes: 3
+User 4 upvoted post 866883 in subreddit subreddit_19. Total upvotes: 5
+User 8 upvoted post 856457 in subreddit subreddit_27. Total upvotes: 3
+User User219 sent a DM to 9: DM from 1: Bananas are a government conspiracy!
+User 3 upvoted post 367066 in subreddit subreddit_79. Total upvotes: 10
+User 2 upvoted post 925927 in subreddit subreddit_50. Total upvotes: 3
+User 1 created a post in subreddit subreddit_64: This is post #801 by 1
+User 1 was added to subreddit_64 subreddit.
+User 7 downvoted post ID 536434 in subreddit subreddit_34. Total upvotes: 0
+User 4 created a post in subreddit subreddit_39: This is post #37 by 4
+User 4 was added to subreddit_39 subreddit.
+User 1 joined subreddit_65 subreddit.
+User 9 created a post in subreddit subreddit_6: This is post #618 by 9
+User 9 was added to subreddit_6 subreddit.
+User 2 upvoted post 925927 in subreddit subreddit_50. Total upvotes: 4
+User 2 upvoted post 536434 in subreddit subreddit_34. Total upvotes: 1
+User 10 downvoted post ID 353516 in subreddit subreddit_45. Total upvotes: 1
+User 7 upvoted post 459693 in subreddit subreddit_64. Total upvotes: 1
+User 3 downvoted post ID 914221 in subreddit subreddit_35. Total upvotes: 0
+User 9 downvoted post ID 375447 in subreddit subreddit_95. Total upvotes: 0
+User 1 created a post in subreddit subreddit_9: This is post #127 by 1
+User 1 was added to subreddit_9 subreddit.
+User 3 upvoted post 732712 in subreddit subreddit_90. Total upvotes: 2
+User User677 sent a DM to 6: DM from 1: Bananas are a government conspiracy!
+User 2 downvoted post ID 630314 in subreddit subreddit_70. Total upvotes: 3
+User 4 created a post in subreddit subreddit_70: This is post #27 by 4
+User User753 sent a DM to 6: DM from 7: I'm not crying, you're crying.
+User 5 downvoted post ID 387216 in subreddit subreddit_89. Total upvotes: 0
+User 2 upvoted post 291065 in subreddit subreddit_65. Total upvotes: 4
+User 2 downvoted post ID 272758 in subreddit subreddit_6. Total upvotes: 5
+User 2 upvoted post 925927 in subreddit subreddit_50. Total upvotes: 5
+User 9 upvoted post 811736 in subreddit subreddit_6. Total upvotes: 3
+User 10 upvoted post 375447 in subreddit subreddit_95. Total upvotes: 1
+User 10 downvoted post ID 375447 in subreddit subreddit_95. Total upvotes: 0
+User 10 upvoted post 651927 in subreddit subreddit_82. Total upvotes: 1
+User 4 created a post in subreddit subreddit_33: This is post #830 by 4
+User 2 downvoted post ID 90773 in subreddit subreddit_39. Total upvotes: 1
+User 7 downvoted post ID 589816 in subreddit subreddit_41. Total upvotes: 2
+User User109 sent a DM to 5: DM from 10: Pineapples on pizza? Let's discuss.
+User User3 sent a DM to 6: DM from 10: Pineapples on pizza? Let's discuss.
+User User293 sent a DM to 9: DM from 2: The sky just winked at me. Weird.
+User 9 downvoted post ID 425315 in subreddit subreddit_51. Total upvotes: 2
+User 6 upvoted post 272444 in subreddit subreddit_70. Total upvotes: 5
+User 6 upvoted post 633702 in subreddit subreddit_66. Total upvotes: 1
+User 9 upvoted post 418300 in subreddit subreddit_31. Total upvotes: 5
+User 4 upvoted post 324582 in subreddit subreddit_19. Total upvotes: 1
+User User931 sent a DM to 3: DM from 7: Bananas are a government conspiracy!
+User 4 created a post in subreddit subreddit_46: This is post #188 by 4
+User 4 was added to subreddit_46 subreddit.
+User 6 upvoted post 33477 in subreddit subreddit_67. Total upvotes: 1
+User 6 upvoted post 847801 in subreddit subreddit_24. Total upvotes: 2
+User 9 joined subreddit_38 subreddit.
+User User157 sent a DM to 9: DM from 7: This post smells like teen spirit.
+User 4 upvoted post 226114 in subreddit subreddit_20. Total upvotes: 3
+User 7 downvoted post ID 698384 in subreddit subreddit_23. Total upvotes: 5
+User User229 sent a DM to 7: DM from 9: I can't believe it's not butter!
+User 9 upvoted post 708507 in subreddit subreddit_33. Total upvotes: 1
 
 Simulation Statistics:
-
-Total Users: 5
-Total Posts: 43
-Total Subreddits: 30
-Total Messages: 40
-Simulation Time: 28.231822834s
+Total Users: 10
+Total Posts: 120
+Total Subreddits: 107
+Total Messages: 127
+Total Simulation Time: 38.865506917s
 
 User Statistics:
-User4 - Karma: 0, Posts: 9
-User2 - Karma: 0, Posts: 9
-User3 - Karma: 0, Posts: 8
-User5 - Karma: 0, Posts: 6
-User1 - Karma: 0, Posts: 11
+User 6 - Posts: 7
+User 3 - Posts: 15
+User 1 - Posts: 14
+User 7 - Posts: 13
+User 10 - Posts: 9
+User 4 - Posts: 17
+User 9 - Posts: 15
+User 5 - Posts: 14
+User 8 - Posts: 8
+User 2 - Posts: 8
