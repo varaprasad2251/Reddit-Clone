@@ -1,7 +1,7 @@
 package simulation
 
 import (
-	"dosp-proj3/messages"
+	"cop5615-project4/messages"
 	"math/rand"
 	"sync"
 	"time"

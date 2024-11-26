@@ -4,7 +4,7 @@ package redditEngine
 import "time"
 
 import (
-	"dosp-proj3/messages"
+	"cop5615-project4/messages"
 	"fmt"
 	"sync"
 	"github.com/asynkron/protoactor-go/actor"

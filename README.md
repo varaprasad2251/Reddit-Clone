@@ -1,55 +1,72 @@
-# COP5615_Project4
-Reddit Clone and a client tester/simulator
-
-
-Download Go
-Visit the official Go website: https://go.dev/dl/.
-Download the macOS ARM64 installer (.pkg file) for M1/M2 chips.
-3. Install Go
-Open the downloaded .pkg file.
-Follow the on-screen instructions to complete the installation.
-By default, Go will be installed in /usr/local/go.
-4. Add Go to Your PATH
-To ensure Go is accessible from the terminal:
-
-Open your terminal and edit your shell configuration file. Depending on your shell:
-
-For zsh (default on macOS):
-bash
-Copy code
-nano ~/.zshrc
-For bash:
-bash
-Copy code
-nano ~/.bash_profile
-Add the following line at the end of the file:
-
-bash
-Copy code
-export PATH=$PATH:/usr/local/go/bin
-Save and close the file (Ctrl+O, then Enter, then Ctrl+X in nano).
-
-Reload the configuration file:
-
-bash
-Copy code
-source ~/.zshrc  # or ~/.bash_profile
-
-
-
-
-Build and run the program:
-bash
-Copy code
-go run main.go
-
-
-
-# Reddit Clone
+# COP5615 Project 4
+Project 4 - Reddit Clone in GO
 
 ## Description
 
 This project implements a Reddit-like engine with core functionalities and a client simulator. The engine supports user registration, subreddit management, posting, commenting, voting, and direct messaging. The simulator tests the engine by simulating multiple users performing various actions concurrently.
+
+## Group Members
+
+* Member 1: Chenna Kesava Varaprasad Korlapati (UFID: 4836-8778)
+* Member 2: Phalguna Peravali (UFID: 3753-9361)
+
+## Setup and Prerequisites
+
+### Prerequisites
+For this project, you need to have GO installed on your machine. Here are the steps to install GO on macOS:
+
+### Installing GO on macOS
+
+1. Visit the official GO downloads page: https://golang.org/dl/
+
+2. Download the macOS installer package for the latest GO version.
+
+3. Open the downloaded package and follow the prompts to install GO.
+
+4. After installation, open a terminal and verify the installation by running:
+    ~~~
+    go version
+    ~~~
+    This should display the installed Go version.
+
+5. Set up Go workspace by adding the following to ~/.bash_profile or ~/.zshrc file:
+    ~~~
+    export GOPATH=$HOME/go
+    export PATH=$PATH:$GOPATH/bin
+    ~~~
+6. Reload shell configuration:
+    ~~~
+    source ~/.bash_profile
+    ~~~
+    or
+    ~~~
+    source ~/.zshrc
+    ~~~
+
+Now you have Go installed and configured on your macOS system.
+
+### Project Setup
+1. **Clone the repository**:
+    ```
+    git clone https://github.com/varaprasad2251/COP5615_Project4.git
+    ```
+
+2. Change the directory to Project root directory
+    ```
+    cd COP5615_Project4
+    ```
+
+3. Install project dependencies:
+   ~~~
+   go mod tidy
+   ~~~
+
+4. Execute the program
+    ```
+    go run main.go -users <num_users>
+    ```
+    Here `<num_users>` is the maximum number of users to be simulated
+
 
 ## Overview
 

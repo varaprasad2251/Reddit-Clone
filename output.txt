@@ -1,29 +1,74 @@
 ActorSystem created
 NewRedditEngine: Initializing RedditEngine
-RedditEngine initialized
-RedditEngine actor spawned with PID: Address:"nonhost" Id:"$1"
+Reddit Engine created
+*************%s************ 20
 RedditEngine: Entered Receive method ; Received Action-> &{}
 RedditEngine: Unknown message type received
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 []}
+RedditEngine: Processing user registration
+User User20 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 []}
+RedditEngine: Processing user registration
+User User1 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 []}
+RedditEngine: Processing user registration
+User User2 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 []}
+RedditEngine: Processing user registration
+User User18 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User17 []}
+RedditEngine: Processing user registration
+User User17 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User6 []}
 RedditEngine: Processing user registration
 User User6 registered successfully.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 []}
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 []}
 RedditEngine: Processing user registration
-User User5 registered successfully.
+User User14 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang}
+RedditEngine: User Join SubReddit Operation
+Subreddit golang did not exist and was created.
+User User14 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 []}
+RedditEngine: Processing user registration
+User User11 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 []}
+RedditEngine: Processing user registration
+User User12 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User4 []}
 RedditEngine: Processing user registration
 User User4 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User4: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 []}
-RedditEngine: Processing user registration
-User User1 registered successfully.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
@@ -35,28 +80,35 @@ User User7 registered successfully.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User6: Hi Bro
+User user1 sent a DM to User12: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User17: Hi Bro
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User9 []}
 RedditEngine: Processing user registration
 User User9 registered successfully.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
-RedditEngine: User Join SubReddit Operation
-Subreddit golang did not exist and was created.
-User User9 joined golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
-RedditEngine: User Join SubReddit Operation
-User User6 joined golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 []}
-RedditEngine: Processing user registration
-User User3 registered successfully.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 []}
+RedditEngine: Processing user registration
+User User13 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 []}
+RedditEngine: Processing user registration
+User User16 registered successfully.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
@@ -66,100 +118,495 @@ RedditEngine: Entered Receive method ; Received Action-> &{User10 []}
 RedditEngine: Processing user registration
 User User10 registered successfully.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User10 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang}
+RedditEngine: User Join SubReddit Operation
+User User10 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 []}
+RedditEngine: Processing user registration
+User User15 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User15: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User19 []}
+RedditEngine: Processing user registration
+User User19 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User4: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 []}
+RedditEngine: Processing user registration
+User User3 registered successfully.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User1: Hi Bro
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User8 []}
 RedditEngine: Processing user registration
 User User8 registered successfully.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang}
 RedditEngine: User Join SubReddit Operation
-User User8 joined golang subreddit.
+User User18 joined golang subreddit.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 []}
+RedditEngine: Entered Receive method ; Received Action-> &{User5 []}
 RedditEngine: Processing user registration
-User User2 registered successfully.
+User User5 registered successfully.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 is not subscribed to any subreddits and cannot upvote posts.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {26 This is a simulated post about Go! User3 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang {55 This is a simulated post about Go! User5 0 0 []}}
 RedditEngine: Create Post Operation
-User User3 created a post in subreddit golang: This is a simulated post about Go!
-User User3 was automatically added to golang subreddit.
+User User5 created a post in subreddit golang: This is a simulated post about Go!
+User User5 was automatically added to golang subreddit.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang {57 This is a simulated post about Go! User1 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+Recipient user1 no longer exists.
+User User1 has replied to all DMs and cleared their DM list.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang}
+RedditEngine: User Join SubReddit Operation
+User User10 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User12: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User11: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User13: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User17 golang {5 This is a simulated post about Go! User17 0 0 []}}
+RedditEngine: Create Post Operation
+User User17 created a post in subreddit golang: This is a simulated post about Go!
+User User17 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang}
+RedditEngine: User Join SubReddit Operation
+User User12 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 golang {40 This is a simulated post about Go! User11 0 0 []}}
+RedditEngine: Create Post Operation
+User User11 created a post in subreddit golang: This is a simulated post about Go!
+User User11 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 is not subscribed to any subreddits and cannot upvote posts.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
+RedditEngine: User Join SubReddit Operation
+User User6 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang}
+RedditEngine: User Join SubReddit Operation
+User User14 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang}
+RedditEngine: User Join SubReddit Operation
+User User1 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang}
+RedditEngine: User Join SubReddit Operation
+User User3 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User12: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User7 golang {21 This is a simulated post about Go! User7 0 0 []}}
+RedditEngine: Create Post Operation
+User User7 created a post in subreddit golang: This is a simulated post about Go!
+User User7 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
+RedditEngine: User Join SubReddit Operation
+User User6 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User19: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang {51 This is a simulated post about Go! User16 0 0 []}}
+RedditEngine: Create Post Operation
+User User16 created a post in subreddit golang: This is a simulated post about Go!
+User User16 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang}
+RedditEngine: User Join SubReddit Operation
+User User10 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User5. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 golang {69 This is a simulated post about Go! User2 0 0 []}}
+RedditEngine: Create Post Operation
+User User2 created a post in subreddit golang: This is a simulated post about Go!
+User User2 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User7: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 0
+Updated karma for user User16. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang {83 This is a simulated post about Go! User12 0 0 []}}
+RedditEngine: Create Post Operation
+User User12 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 69 in subreddit golang. Total upvotes: 1
+Updated karma for user User2. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User11: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 69 in subreddit golang. Total upvotes: 0
+Updated karma for user User2. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User17 golang}
+RedditEngine: User Join SubReddit Operation
+User User17 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang {8 This is a simulated post about Go! User10 0 0 []}}
+RedditEngine: Create Post Operation
+User User10 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 8 in subreddit golang. Total upvotes: 0
+Updated karma for user User10. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang {75 This is a simulated post about Go! User1 0 0 []}}
 RedditEngine: Create Post Operation
 User User1 created a post in subreddit golang: This is a simulated post about Go!
-User User1 was automatically added to golang subreddit.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User1: Hi Bro
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 83 in subreddit golang. Total upvotes: 1
+Updated karma for user User12. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User17 golang}
 RedditEngine: User Join SubReddit Operation
-User User8 is already a member of golang subreddit.
+User User17 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 75 in subreddit golang. Total upvotes: 0
+Updated karma for user User1. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 1
+Updated karma for user User17. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang {77 This is a simulated post about Go! User16 0 0 []}}
+RedditEngine: Create Post Operation
+User User16 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 0
+Updated karma for user User17. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 golang {76 This is a simulated post about Go! User2 0 0 []}}
+RedditEngine: Create Post Operation
+User User2 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 21 in subreddit golang. Total upvotes: 1
+Updated karma for user User7. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {11 This is a simulated post about Go! User3 0 0 []}}
+RedditEngine: Create Post Operation
+User User3 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 11 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 11 in subreddit golang. Total upvotes: 1
+Updated karma for user User3. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User5. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User7 golang}
+RedditEngine: User Join SubReddit Operation
+User User7 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User5. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User19 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang}
+RedditEngine: User Join SubReddit Operation
+User User18 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang {88 This is a simulated post about Go! User6 0 0 []}}
+RedditEngine: Create Post Operation
+User User6 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User1: Hi Bro
+User user1 sent a DM to User20: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 golang {29 This is a simulated post about Go! User4 0 0 []}}
-RedditEngine: Create Post Operation
-User User4 created a post in subreddit golang: This is a simulated post about Go!
-User User4 was automatically added to golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 57 in subreddit golang. Total upvotes: 1
-Updated karma for user User1. New Post Karma: 1
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User5. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang {98 This is a simulated post about Go! User9 0 0 []}}
+RedditEngine: Create Post Operation
+User User9 created a post in subreddit golang: This is a simulated post about Go!
+User User9 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang}
+RedditEngine: User Join SubReddit Operation
+User User14 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 0
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 26 in subreddit golang. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 1
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 0
+Updated karma for user User17. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User4 golang}
+RedditEngine: User Join SubReddit Operation
+User User4 joined golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User19 golang {78 This is a simulated post about Go! User19 0 0 []}}
+RedditEngine: Create Post Operation
+User User19 created a post in subreddit golang: This is a simulated post about Go!
+User User19 was automatically added to golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
+User User1 upvoted post ID 69 in subreddit golang. Total upvotes: 1
+Updated karma for user User2. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang}
+RedditEngine: User Join SubReddit Operation
+User User16 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 golang}
+RedditEngine: User Join SubReddit Operation
+User User2 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User17: Hi Bro
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 26 in subreddit golang. Total upvotes: 2
-Updated karma for user User3. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-Recipient user1 no longer exists.
-Recipient user1 no longer exists.
-User User1 has replied to all DMs and cleared their DM list.
+User User1 upvoted post ID 11 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 26 in subreddit golang. Total upvotes: 3
-Updated karma for user User3. New Post Karma: 3
+User User1 upvoted post ID 8 in subreddit golang. Total upvotes: 0
+Updated karma for user User10. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang {36 This is a simulated post about Go! User13 0 0 []}}
+RedditEngine: Create Post Operation
+User User13 created a post in subreddit golang: This is a simulated post about Go!
+User User13 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 88 in subreddit golang. Total upvotes: 1
+Updated karma for user User6. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang}
+RedditEngine: User Join SubReddit Operation
+User User3 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 1
+Updated karma for user User17. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 golang {50 This is a simulated post about Go! User20 0 0 []}}
+RedditEngine: Create Post Operation
+User User20 created a post in subreddit golang: This is a simulated post about Go!
+User User20 was automatically added to golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User5: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 88 in subreddit golang. Total upvotes: 2
+Updated karma for user User6. New Post Karma: 2
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
@@ -169,481 +616,284 @@ RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
 User user1 sent a DM to User7: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {61 This is a simulated post about Go! User3 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang {55 This is a simulated post about Go! User13 0 0 []}}
 RedditEngine: Create Post Operation
-User User3 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang}
-RedditEngine: User Join SubReddit Operation
-User User1 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 golang {33 This is a simulated post about Go! User4 0 0 []}}
-RedditEngine: Create Post Operation
-User User4 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 57 in subreddit golang. Total upvotes: 2
-Updated karma for user User1. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
-RedditEngine: User Join SubReddit Operation
-User User8 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {48 This is a simulated post about Go! User3 0 0 []}}
-RedditEngine: Create Post Operation
-User User3 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 57 in subreddit golang. Total upvotes: 1
-Updated karma for user User1. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
-RedditEngine: User Join SubReddit Operation
-User User9 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User7 golang {56 This is a simulated post about Go! User7 0 0 []}}
-RedditEngine: Create Post Operation
-User User7 created a post in subreddit golang: This is a simulated post about Go!
-User User7 was automatically added to golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang {38 This is a simulated post about Go! User1 0 0 []}}
-RedditEngine: Create Post Operation
-User User1 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 56 in subreddit golang. Total upvotes: 0
-Updated karma for user User7. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User9: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
-RedditEngine: User Join SubReddit Operation
-User User5 joined golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User10 golang}
-RedditEngine: User Join SubReddit Operation
-User User10 joined golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 57 in subreddit golang. Total upvotes: 0
-Updated karma for user User1. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
-RedditEngine: User Join SubReddit Operation
-User User8 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 26 in subreddit golang. Total upvotes: 4
-Updated karma for user User3. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 56 in subreddit golang. Total upvotes: 1
-Updated karma for user User7. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User6: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 61 in subreddit golang. Total upvotes: 0
-Updated karma for user User3. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
-RedditEngine: User Join SubReddit Operation
-User User9 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User10 golang}
-RedditEngine: User Join SubReddit Operation
-User User10 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang}
-RedditEngine: User Join SubReddit Operation
-User User2 joined golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User10 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 2
-Updated karma for user User4. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang {79 This is a simulated post about Go! User2 0 0 []}}
-RedditEngine: Create Post Operation
-User User2 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
-RedditEngine: User Join SubReddit Operation
-User User6 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User2: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang {90 This is a simulated post about Go! User8 0 0 []}}
-RedditEngine: Create Post Operation
-User User8 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User4: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 golang {68 This is a simulated post about Go! User4 0 0 []}}
-RedditEngine: Create Post Operation
-User User4 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User4: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
-RedditEngine: User Join SubReddit Operation
-User User5 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 48 in subreddit golang. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 68 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 57 in subreddit golang. Total upvotes: 1
-Updated karma for user User1. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 68 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang}
-RedditEngine: User Join SubReddit Operation
-User User2 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User5: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 56 in subreddit golang. Total upvotes: 2
-Updated karma for user User7. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 1
+User User13 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
 User user1 sent a DM to User10: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
-RedditEngine: User Join SubReddit Operation
-User User6 is already a member of golang subreddit.
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 1
+Updated karma for user User5. New Post Karma: 1
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang {25 This is a simulated post about Go! User2 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang}
+RedditEngine: User Join SubReddit Operation
+User User18 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 36 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User4 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 2
+Updated karma for user User17. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 98 in subreddit golang. Total upvotes: 1
+Updated karma for user User9. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User18: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User18: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
+RedditEngine: User Join SubReddit Operation
+User User5 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 0
+Updated karma for user User16. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang}
+RedditEngine: User Join SubReddit Operation
+User User16 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 98 in subreddit golang. Total upvotes: 0
+Updated karma for user User9. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang {77 This is a simulated post about Go! User8 0 0 []}}
 RedditEngine: Create Post Operation
-User User2 created a post in subreddit golang: This is a simulated post about Go!
+User User8 created a post in subreddit golang: This is a simulated post about Go!
+User User8 was automatically added to golang subreddit.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User9: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User9: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 48 in subreddit golang. Total upvotes: 2
-Updated karma for user User3. New Post Karma: 5
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User6: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
-RedditEngine: User Join SubReddit Operation
-User User8 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang {74 This is a simulated post about Go! User5 0 0 []}}
-RedditEngine: Create Post Operation
-User User5 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 76 in subreddit golang. Total upvotes: 0
+Updated karma for user User2. New Post Karma: 0
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User1: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang}
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang}
 RedditEngine: User Join SubReddit Operation
-User User2 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang {16 This is a simulated post about Go! User8 0 0 []}}
-RedditEngine: Create Post Operation
-User User8 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 68 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 56 in subreddit golang. Total upvotes: 3
-Updated karma for user User7. New Post Karma: 3
+User User15 joined golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
-Recipient user1 no longer exists.
-User User1 has replied to all DMs and cleared their DM list.
+User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 74 in subreddit golang. Total upvotes: 0
-Updated karma for user User5. New Post Karma: 0
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 0
+Updated karma for user User16. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang {24 This is a simulated post about Go! User13 0 0 []}}
+RedditEngine: Create Post Operation
+User User13 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang}
+RedditEngine: User Join SubReddit Operation
+User User15 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User1: Hi Bro
+User user1 sent a DM to User16: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User7 golang {49 This is a simulated post about Go! User7 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User15: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User14: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User13: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang {3 This is a simulated post about Go! User15 0 0 []}}
+RedditEngine: Create Post Operation
+User User15 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 50 in subreddit golang. Total upvotes: 1
+Updated karma for user User20. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User7 golang {88 This is a simulated post about Go! User7 0 0 []}}
 RedditEngine: Create Post Operation
 User User7 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
-RedditEngine: User Join SubReddit Operation
-User User8 is already a member of golang subreddit.
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 16 in subreddit golang. Total upvotes: 1
-Updated karma for user User8. New Post Karma: 1
+User User1 upvoted post ID 76 in subreddit golang. Total upvotes: 1
+Updated karma for user User2. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
+RedditEngine: User Join SubReddit Operation
+User User5 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User4 golang}
+RedditEngine: User Join SubReddit Operation
+User User4 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User20: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {32 This is a simulated post about Go! User3 0 0 []}}
+RedditEngine: Create Post Operation
+User User3 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User7 golang}
+RedditEngine: User Join SubReddit Operation
+User User7 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 3 in subreddit golang. Total upvotes: 1
+Updated karma for user User15. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User5: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 1
+Updated karma for user User16. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 1
+Updated karma for user User11. New Post Karma: 1
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 48 in subreddit golang. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User7 golang {99 This is a simulated post about Go! User7 0 0 []}}
-RedditEngine: Create Post Operation
-User User7 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 61 in subreddit golang. Total upvotes: 0
-Updated karma for user User3. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User10 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
-Recipient user1 no longer exists.
-User User1 has replied to all DMs and cleared their DM list.
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 3
+Updated karma for user User17. New Post Karma: 3
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User6: Hi Bro
+User user1 sent a DM to User5: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {85 This is a simulated post about Go! User3 0 0 []}}
-RedditEngine: Create Post Operation
-User User3 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang {23 This is a simulated post about Go! User2 0 0 []}}
-RedditEngine: Create Post Operation
-User User2 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
+RedditEngine: User Join SubReddit Operation
+User User5 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 90 in subreddit golang. Total upvotes: 0
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 0
 Updated karma for user User8. New Post Karma: 0
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 16 in subreddit golang. Total upvotes: 0
-Updated karma for user User8. New Post Karma: 0
+User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 23 in subreddit golang. Total upvotes: 0
-Updated karma for user User2. New Post Karma: 0
+User User1 upvoted post ID 11 in subreddit golang. Total upvotes: 1
+Updated karma for user User3. New Post Karma: 1
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 48 in subreddit golang. Total upvotes: 0
-Updated karma for user User3. New Post Karma: 2
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang {68 This is a simulated post about Go! User9 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang {76 This is a simulated post about Go! User9 0 0 []}}
 RedditEngine: Create Post Operation
 User User9 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
-RedditEngine: User Join SubReddit Operation
-User User6 is already a member of golang subreddit.
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 32 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User15: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 50 in subreddit golang. Total upvotes: 0
+Updated karma for user User20. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 0
+Updated karma for user User8. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 golang {3 This is a simulated post about Go! User20 0 0 []}}
+RedditEngine: Create Post Operation
+User User20 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
@@ -653,184 +903,517 @@ User User7 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 85 in subreddit golang. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 3
+User User1 upvoted post ID 83 in subreddit golang. Total upvotes: 2
+Updated karma for user User12. New Post Karma: 2
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 61 in subreddit golang. Total upvotes: 1
-Updated karma for user User3. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 85 in subreddit golang. Total upvotes: 2
-Updated karma for user User3. New Post Karma: 5
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 61 in subreddit golang. Total upvotes: 0
-Updated karma for user User3. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User2: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User9: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 48 in subreddit golang. Total upvotes: 0
-Updated karma for user User3. New Post Karma: 3
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang}
-RedditEngine: User Join SubReddit Operation
-User User6 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 25 in subreddit golang. Total upvotes: 0
-Updated karma for user User2. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User4 golang {36 This is a simulated post about Go! User4 0 0 []}}
-RedditEngine: Create Post Operation
-User User4 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 16 in subreddit golang. Total upvotes: 0
-Updated karma for user User8. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User8: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
-RedditEngine: User Join SubReddit Operation
-User User5 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
-RedditEngine: Reply To Comment
-Post with ID 1 does not exist in subreddit golang.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
-RedditEngine: User Join SubReddit Operation
-User User9 is already a member of golang subreddit.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 56 in subreddit golang. Total upvotes: 4
-Updated karma for user User7. New Post Karma: 4
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 1
-Updated karma for user User4. New Post Karma: 1
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang {15 This is a simulated post about Go! User8 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User19 golang {84 This is a simulated post about Go! User19 0 0 []}}
 RedditEngine: Create Post Operation
-User User8 created a post in subreddit golang: This is a simulated post about Go!
+User User19 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 25 in subreddit golang. Total upvotes: 0
-Updated karma for user User2. New Post Karma: 0
+User User1 upvoted post ID 88 in subreddit golang. Total upvotes: 3
+Updated karma for user User6. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang {59 This is a simulated post about Go! User15 0 0 []}}
+RedditEngine: Create Post Operation
+User User15 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 32 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User5: Hi Bro
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang {15 This is a simulated post about Go! User1 0 0 []}}
-RedditEngine: Create Post Operation
-User User1 created a post in subreddit golang: This is a simulated post about Go!
+User user1 sent a DM to User11: Hi Bro
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 23 in subreddit golang. Total upvotes: 0
-Updated karma for user User2. New Post Karma: 0
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 2
+Updated karma for user User11. New Post Karma: 2
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User5 golang {86 This is a simulated post about Go! User5 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 11 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User19 golang {51 This is a simulated post about Go! User19 0 0 []}}
 RedditEngine: Create Post Operation
-User User5 created a post in subreddit golang: This is a simulated post about Go!
+User User19 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 59 in subreddit golang. Total upvotes: 0
+Updated karma for user User15. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User4 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 29 in subreddit golang. Total upvotes: 0
-Updated karma for user User4. New Post Karma: 0
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 68 in subreddit golang. Total upvotes: 1
+User User1 upvoted post ID 98 in subreddit golang. Total upvotes: 1
 Updated karma for user User9. New Post Karma: 1
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
 User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {88 This is a simulated post about Go! User3 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 2
+Updated karma for user User17. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User19: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 76 in subreddit golang. Total upvotes: 2
+Updated karma for user User2. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 3 in subreddit golang. Total upvotes: 2
+Updated karma for user User15. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User19: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang {10 This is a simulated post about Go! User14 0 0 []}}
+RedditEngine: Create Post Operation
+User User14 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 1
+Updated karma for user User13. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 10 in subreddit golang. Total upvotes: 1
+Updated karma for user User14. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {96 This is a simulated post about Go! User3 0 0 []}}
 RedditEngine: Create Post Operation
 User User3 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 57 in subreddit golang. Total upvotes: 0
-Updated karma for user User1. New Post Karma: 0
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 2
+Updated karma for user User16. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 11 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang {65 This is a simulated post about Go! User1 0 0 []}}
+RedditEngine: Create Post Operation
+User User1 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User19 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User12: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User19 golang {78 This is a simulated post about Go! User19 0 0 []}}
+RedditEngine: Create Post Operation
+User User19 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 golang}
+RedditEngine: User Join SubReddit Operation
+User User20 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang}
+RedditEngine: User Join SubReddit Operation
+User User13 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User7 golang {86 This is a simulated post about Go! User7 0 0 []}}
+RedditEngine: Create Post Operation
+User User7 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 golang {90 This is a simulated post about Go! User11 0 0 []}}
+RedditEngine: Create Post Operation
+User User11 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User4 golang}
+RedditEngine: User Join SubReddit Operation
+User User4 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 90 in subreddit golang. Total upvotes: 1
+Updated karma for user User11. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 86 in subreddit golang. Total upvotes: 0
+Updated karma for user User7. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 1
+Updated karma for user User19. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang}
+RedditEngine: User Join SubReddit Operation
+User User16 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 90 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User4 golang}
+RedditEngine: User Join SubReddit Operation
+User User4 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang}
+RedditEngine: User Join SubReddit Operation
+User User3 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 0
+Updated karma for user User19. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 32 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 24 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User6: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User6: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 96 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User6: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang {51 This is a simulated post about Go! User8 0 0 []}}
+RedditEngine: Create Post Operation
+User User8 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 40 in subreddit golang. Total upvotes: 1
+Updated karma for user User11. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 2
+Updated karma for user User5. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 86 in subreddit golang. Total upvotes: 1
+Updated karma for user User7. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang}
+RedditEngine: User Join SubReddit Operation
+User User10 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User17 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User9: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 78 in subreddit golang. Total upvotes: 0
+Updated karma for user User19. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 36 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 5 in subreddit golang. Total upvotes: 3
+Updated karma for user User17. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang}
+RedditEngine: User Join SubReddit Operation
+User User18 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 84 in subreddit golang. Total upvotes: 0
+Updated karma for user User19. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User8: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 0
+Updated karma for user User8. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User13 golang {12 This is a simulated post about Go! User13 0 0 []}}
+RedditEngine: Create Post Operation
+User User13 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang}
+RedditEngine: User Join SubReddit Operation
+User User14 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang {95 This is a simulated post about Go! User18 0 0 []}}
+RedditEngine: Create Post Operation
+User User18 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 76 in subreddit golang. Total upvotes: 3
+Updated karma for user User2. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 24 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User18: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User4 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang}
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
 RedditEngine: User Join SubReddit Operation
-User User1 is already a member of golang subreddit.
+User User9 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
-RedditEngine: Send DM
-User user1 sent a DM to User2: Hi Bro
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
+RedditEngine: User Join SubReddit Operation
+User User9 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 33 in subreddit golang. Total upvotes: 2
-Updated karma for user User4. New Post Karma: 1
+User User1 upvoted post ID 3 in subreddit golang. Total upvotes: 0
+Updated karma for user User20. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 1
+Updated karma for user User8. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang}
+RedditEngine: User Join SubReddit Operation
+User User15 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang}
+RedditEngine: User Join SubReddit Operation
+User User16 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang}
+RedditEngine: User Join SubReddit Operation
+User User3 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang {22 This is a simulated post about Go! User18 0 0 []}}
+RedditEngine: Create Post Operation
+User User18 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User4: Hi Bro
+User user1 sent a DM to User10: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User7 golang}
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User2 golang}
 RedditEngine: User Join SubReddit Operation
-User User7 is already a member of golang subreddit.
+User User2 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User14: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang}
+RedditEngine: User Join SubReddit Operation
+User User14 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 1
+Updated karma for user User8. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 83 in subreddit golang. Total upvotes: 3
+Updated karma for user User12. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 22 in subreddit golang. Total upvotes: 0
+Updated karma for user User18. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 golang}
+RedditEngine: User Join SubReddit Operation
+User User20 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User7 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
@@ -838,51 +1421,158 @@ Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User10: Hi Bro
+User user1 sent a DM to User4: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1}
-RedditEngine: Reply To DM
-User User1 upvoted post ID 86 in subreddit golang. Total upvotes: 1
-Updated karma for user User5. New Post Karma: 1
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang}
+RedditEngine: User Join SubReddit Operation
+User User18 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang}
+RedditEngine: User Join SubReddit Operation
+User User15 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 golang {35 This is a simulated post about Go! User11 0 0 []}}
+RedditEngine: Create Post Operation
+User User11 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
 RedditEngine: Reply To DM
 User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 3
+Updated karma for user User5. New Post Karma: 3
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
 RedditEngine: Send DM
-User user1 sent a DM to User10: Hi Bro
+User user1 sent a DM to User12: Hi Bro
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User6 golang {4 This is a simulated post about Go! User6 0 0 []}}
-RedditEngine: Create Post Operation
-User User6 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Entered Receive method ; Received Action-> &{User16 golang}
+RedditEngine: User Join SubReddit Operation
+User User16 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User8 golang {50 This is a simulated post about Go! User8 0 0 []}}
-RedditEngine: Create Post Operation
-User User8 created a post in subreddit golang: This is a simulated post about Go!
-RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
-RedditEngine: Reply To DM
-User User1 has no DMs to reply to.
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 25 in subreddit golang. Total upvotes: 1
-Updated karma for user User2. New Post Karma: 1
+User User1 upvoted post ID 36 in subreddit golang. Total upvotes: 1
+Updated karma for user User13. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User3: Hi Bro
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang 1 1 This is a reply to a comment}
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User8: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
+RedditEngine: User Join SubReddit Operation
+User User8 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User2: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User8 golang}
+RedditEngine: User Join SubReddit Operation
+User User8 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang}
+RedditEngine: User Join SubReddit Operation
+User User1 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 3 in subreddit golang. Total upvotes: 3
+Updated karma for user User15. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User12 golang {36 This is a simulated post about Go! User12 0 0 []}}
+RedditEngine: Create Post Operation
+User User12 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 78 in subreddit golang. Total upvotes: 1
+Updated karma for user User19. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 32 in subreddit golang. Total upvotes: 1
+Updated karma for user User3. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang {99 This is a simulated post about Go! User3 0 0 []}}
+RedditEngine: Create Post Operation
+User User3 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 86 in subreddit golang. Total upvotes: 2
+Updated karma for user User7. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 96 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User14: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User6: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User9 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User7 golang}
+RedditEngine: User Join SubReddit Operation
+User User7 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 99 in subreddit golang. Total upvotes: 0
+Updated karma for user User3. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 golang {6 This is a simulated post about Go! User11 0 0 []}}
+RedditEngine: Create Post Operation
+User User11 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 95 in subreddit golang. Total upvotes: 1
+Updated karma for user User18. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 golang 1 1 This is a reply to a comment}
 RedditEngine: Reply To Comment
 Post with ID 1 does not exist in subreddit golang.
 RedditEngine: Exiting Receive method
@@ -892,49 +1582,266 @@ User User1 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 85 in subreddit golang. Total upvotes: 3
-Updated karma for user User3. New Post Karma: 4
+User User1 upvoted post ID 3 in subreddit golang. Total upvotes: 0
+Updated karma for user User20. New Post Karma: 0
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User2 golang {76 This is a simulated post about Go! User2 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang {90 This is a simulated post about Go! User5 0 0 []}}
 RedditEngine: Create Post Operation
-User User2 created a post in subreddit golang: This is a simulated post about Go!
+User User5 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User1 golang {51 This is a simulated post about Go! User1 0 0 []}}
+RedditEngine: Entered Receive method ; Received Action-> &{User10 golang {98 This is a simulated post about Go! User10 0 0 []}}
 RedditEngine: Create Post Operation
-User User1 created a post in subreddit golang: This is a simulated post about Go!
+User User10 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
-RedditEngine: Entered Receive method ; Received Action-> &{User9 golang}
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang {88 This is a simulated post about Go! User6 0 0 []}}
+RedditEngine: Create Post Operation
+User User6 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang}
 RedditEngine: User Join SubReddit Operation
-User User9 is already a member of golang subreddit.
+User User18 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User20 golang}
+RedditEngine: User Join SubReddit Operation
+User User20 is already a member of golang subreddit.
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 26 in subreddit golang. Total upvotes: 5
-Updated karma for user User3. New Post Karma: 5
+User User1 upvoted post ID 36 in subreddit golang. Total upvotes: 2
+Updated karma for user User13. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User14 golang {61 This is a simulated post about Go! User14 0 0 []}}
+RedditEngine: Create Post Operation
+User User14 created a post in subreddit golang: This is a simulated post about Go!
 RedditEngine: Exiting Receive method
 RedditEngine: Entered Receive method ; Received Action-> &{User1}
 RedditEngine: Reply To DM
-User User1 upvoted post ID 38 in subreddit golang. Total upvotes: 1
+User User1 upvoted post ID 55 in subreddit golang. Total upvotes: 0
+Updated karma for user User13. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User8: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 1
+Updated karma for user User16. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User5 golang}
+RedditEngine: User Join SubReddit Operation
+User User5 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 88 in subreddit golang. Total upvotes: 0
+Updated karma for user User7. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 22 in subreddit golang. Total upvotes: 1
+Updated karma for user User18. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 98 in subreddit golang. Total upvotes: 2
+Updated karma for user User9. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 golang {8 This is a simulated post about Go! User11 0 0 []}}
+RedditEngine: Create Post Operation
+User User11 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 61 in subreddit golang. Total upvotes: 0
+Updated karma for user User14. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang {38 This is a simulated post about Go! User15 0 0 []}}
+RedditEngine: Create Post Operation
+User User15 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 51 in subreddit golang. Total upvotes: 1
+Updated karma for user User16. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang {93 This is a simulated post about Go! User15 0 0 []}}
+RedditEngine: Create Post Operation
+User User15 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 69 in subreddit golang. Total upvotes: 2
+Updated karma for user User2. New Post Karma: 4
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User11 golang}
+RedditEngine: User Join SubReddit Operation
+User User11 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 golang}
+RedditEngine: User Join SubReddit Operation
+User User1 is already a member of golang subreddit.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 12 in subreddit golang. Total upvotes: 1
+Updated karma for user User13. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 77 in subreddit golang. Total upvotes: 2
+Updated karma for user User16. New Post Karma: 3
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 86 in subreddit golang. Total upvotes: 3
+Updated karma for user User7. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 98 in subreddit golang. Total upvotes: 1
+Updated karma for user User10. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User15: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 65 in subreddit golang. Total upvotes: 1
 Updated karma for user User1. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 38 in subreddit golang. Total upvotes: 0
+Updated karma for user User15. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 99 in subreddit golang. Total upvotes: 1
+Updated karma for user User3. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User15 golang {48 This is a simulated post about Go! User15 0 0 []}}
+RedditEngine: Create Post Operation
+User User15 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 88 in subreddit golang. Total upvotes: 0
+Updated karma for user User7. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User6 golang {79 This is a simulated post about Go! User6 0 0 []}}
+RedditEngine: Create Post Operation
+User User6 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User3 golang 1 1 This is a reply to a comment}
+RedditEngine: Reply To Comment
+Post with ID 1 does not exist in subreddit golang.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User18 golang {10 This is a simulated post about Go! User18 0 0 []}}
+RedditEngine: Create Post Operation
+User User18 created a post in subreddit golang: This is a simulated post about Go!
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 32 in subreddit golang. Total upvotes: 2
+Updated karma for user User3. New Post Karma: 2
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{user1 Hi Bro}
+RedditEngine: Send DM
+User user1 sent a DM to User5: Hi Bro
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 22 in subreddit golang. Total upvotes: 0
+Updated karma for user User18. New Post Karma: 1
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 35 in subreddit golang. Total upvotes: 0
+Updated karma for user User11. New Post Karma: 0
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1 Hi Bro}
+RedditEngine: Reply To DM
+User User1 has no DMs to reply to.
+RedditEngine: Exiting Receive method
+RedditEngine: Entered Receive method ; Received Action-> &{User1}
+RedditEngine: Reply To DM
+User User1 upvoted post ID 48 in subreddit golang. Total upvotes: 1
+Updated karma for user User15. New Post Karma: 2
 RedditEngine: Exiting Receive method
 Finished simulating all users.
 
 Simulation Statistics:
 
-Total Users: 10
-Total Posts: 28
-Total Subreddits: 29
-Total Messages: 25
-Simulation Time: 5.948171s
+Total Users: 20
+Total Posts: 52
+Total Subreddits: 60
+Total Messages: 56
+Simulation Time: 6.683568333s
 
 User Statistics:
-User2 - Karma: 0, Posts: 4
-User6 - Karma: 0, Posts: 1
-User5 - Karma: 0, Posts: 2
-User9 - Karma: 0, Posts: 1
-User3 - Karma: 0, Posts: 5
-User8 - Karma: 0, Posts: 4
-User4 - Karma: 0, Posts: 4
-User1 - Karma: 0, Posts: 4
+User9 - Karma: 0, Posts: 2
+User13 - Karma: 0, Posts: 4
+User19 - Karma: 0, Posts: 4
+User8 - Karma: 0, Posts: 2
+User11 - Karma: 0, Posts: 5
+User18 - Karma: 0, Posts: 3
+User6 - Karma: 0, Posts: 3
+User14 - Karma: 0, Posts: 2
+User16 - Karma: 0, Posts: 2
+User10 - Karma: 0, Posts: 2
+User3 - Karma: 0, Posts: 4
+User1 - Karma: 0, Posts: 2
+User17 - Karma: 0, Posts: 1
+User12 - Karma: 0, Posts: 2
 User7 - Karma: 0, Posts: 3
-User10 - Karma: 0, Posts: 0
+User2 - Karma: 0, Posts: 2
+User4 - Karma: 0, Posts: 0
+User15 - Karma: 0, Posts: 5
+User5 - Karma: 0, Posts: 2
+User20 - Karma: 0, Posts: 2

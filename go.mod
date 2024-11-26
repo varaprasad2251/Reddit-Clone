@@ -1,4 +1,4 @@
-module dosp-proj3
+module cop5615-project4
 
 go 1.23.0
 

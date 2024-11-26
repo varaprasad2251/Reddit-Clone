@@ -1,8 +1,9 @@
 package main
 
 import (
-	"dosp-proj3/redditEngine"
-	"dosp-proj3/simulation"
+	"cop5615-project4/redditEngine"
+	"cop5615-project4/simulation"
+	"flag"
 	"fmt"
 	"sync"
 	"time"
@@ -11,29 +12,22 @@ import (
 
 func main() {
 	startTime := time.Now()
-	// Create a new ActorSystem
 	actorSystem := actor.NewActorSystem()
 	fmt.Println("ActorSystem created")
-
-	// Initialize WaitGroup
 	var wg sync.WaitGroup
 
-	// Initialize RedditEngine with the ActorSystem and WaitGroup
-	engine := redditEngine.NewRedditEngine(actorSystem, &wg)
-	fmt.Println("RedditEngine initialized")
 
-	// Create props for RedditEngine actor
+	engine := redditEngine.NewRedditEngine(actorSystem, &wg)
+	fmt.Println("Reddit Engine created")
 	props := actor.PropsFromProducer(func() actor.Actor {
 		return engine
 	})
-
-	// Spawn the RedditEngine actor using the ActorSystem
 	enginePID := actorSystem.Root.Spawn(props)
-	fmt.Printf("RedditEngine actor spawned with PID: %v\n", enginePID)
 
-	// Simulate multiple users concurrently
-	numUsers := 10 // Define how many users to simulate
-	for i := 0; i < numUsers; i++ {
+	// numUsers := 10
+	numUsers := flag.Int("users", 10, "number of users to simulate")
+	flag.Parse()
+	for i := 0; i < *numUsers; i++ {
 		wg.Add(1)
 		userName := fmt.Sprintf("User%d", i+1)
 		go simulation.SimulateUser(enginePID, actorSystem, userName, &wg)
