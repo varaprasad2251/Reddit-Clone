@@ -1,5 +1,7 @@
 package messages
 
+import "time"
+
 type RegisterUser struct {
 	UserName       string
 	JointSubReddit []string
@@ -10,11 +12,14 @@ type UserDataType struct {
 	JointSubReddit []string
 	Dm             []DM
 	KarmaPoints    int
+	IsConnected bool
 }
 
 type DM struct {
+	ID int
 	UserName string
 	Content  string
+	Replies []DM
 }
 
 type SubReddit struct {
@@ -28,6 +33,7 @@ type Post struct {
 	Upvotes   int
 	Downvotes int
 	Comments  []Comment
+	CreatedAt time.Time
 }
 type Comment struct {
 	ID        int
@@ -50,7 +56,10 @@ type CJLSubreddite struct{}
 type PostInSubreddit struct{}
 type CommentInSubReddit struct{}
 type VoteInReddit struct{}
-type GetFeed struct{}
+type GetFeed struct {
+    UserName string
+    Limit    int
+}
 type GetDM struct{}
 
 type CreateSubreddit struct {
@@ -84,22 +93,27 @@ type ReplyToDm struct {
 }
 
 type UpVotePost struct {
-	UserName string
-}
-type DownVotePost struct {
-	UserName string
+    UserName string
+    PostID   int
+	TargetUser  string
 }
 
-// type Stats struct {
-//     TotalUsers        int
-//     TotalPosts        int
-//     TotalSubreddits   int
-//     TotalMessages     int
-//     UserStats         map[string]UserStat
-//     SimulationTime    time.Duration
-// }
+type DownVotePost struct {
+    UserName string
+    PostID   int
+	TargetUser  string
+}
 
 type UserStat struct {
     Karma     int
     PostCount int
+}
+
+type UpdateConnectionStatus struct {
+    UserName    string
+    IsConnected bool
+}
+
+type GetDirectMessages struct {
+    UserName string
 }

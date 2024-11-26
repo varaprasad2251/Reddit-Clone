@@ -1,7 +1,10 @@
 // reddit_engine.go
 package redditEngine
 
-import "time"
+import (
+    "sort"
+    "time"
+)
 
 import (
 	"cop5615-project4/messages"
@@ -104,18 +107,52 @@ func (engine *RedditEngine) Receive(ctx actor.Context) {
 		engine.ReplyToAllDMs(msg.UserName, msg.Content)
 		//		engine.Wg.Done()
 	case *messages.UpVotePost:
-		fmt.Println("RedditEngine: Reply To DM")
+		fmt.Println("RedditEngine: Processing Upvote")
 		engine.UpvoteRandomPost(msg.UserName)
-		//		engine.Wg.Done()
+	
 	case *messages.DownVotePost:
-		fmt.Println("RedditEngine: Reply To DM")
+		fmt.Println("RedditEngine: Processing Downvote")
 		engine.DownvoteRandomPost(msg.UserName)
-		//		engine.Wg.Done()
 
 	default:
 		fmt.Println("RedditEngine: Unknown message type received")
 	}
 	fmt.Println("RedditEngine: Exiting Receive method")
+}
+
+
+func (engine *RedditEngine) GetFeed(userName string, limit int) []messages.Post {
+    var feed []messages.Post
+    for _, subreddit := range engine.subreddits {
+        feed = append(feed, subreddit.Posts...)
+    }
+    // Sort posts by creation time (assuming Post struct has a CreatedAt field)
+    sort.Slice(feed, func(i, j int) bool {
+        return feed[i].CreatedAt.After(feed[j].CreatedAt)
+    })
+    // Return only the requested number of posts
+    if len(feed) > limit {
+        return feed[:limit]
+    }
+    return feed
+}
+
+
+func (engine *RedditEngine) GetDirectMessages(userName string) []messages.DM {
+    return engine.userData[userName].Dm
+}
+
+func (engine *RedditEngine) ReplyToDirectMessage(userName string, messageID int, content string) {
+    for i, dm := range engine.userData[userName].Dm {
+        if dm.ID == messageID {
+            replyDM := messages.DM{
+                UserName: userName,
+                Content:  content,
+            }
+            engine.userData[userName].Dm[i].Replies = append(dm.Replies, replyDM)
+            break
+        }
+    }
 }
 
 
