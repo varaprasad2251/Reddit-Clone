@@ -129,10 +129,21 @@ The engine tracks various statistics:
 - Total number of posts
 - Total number of subreddits
 - Total number of messages
-- User-specific stats (karma, post count)
-- Simulation duration
+- Total Simulation Time 
 
 These stats are collected throughout the simulation and printed at the end using the `PrintStats` method of the Engine.
+
+## Simulation Statistics
+
+| Total Users | Total Posts | Total Subreddits | Total Messages | Total Simulation Time |
+|-------------|-------------|------------------|----------------|-----------------------|
+| 10          | 131         | 106              | 113            | 40.5556424s           |
+| 50          | 603         | 541              | 596            | 42.121259s            |
+| 100         | 1186        | 1111             | 1141           | 43.4298415s           |
+| 500         | 5407        | 5448             | 5323           | 44.0380639s           |
+| 1000        | 10423       | 10779            | 10683          | 44.5763764s           |
+| 5000        | 56089       | 56706            | 54101          | 45.0230307s           |
+
 
 ## Running the Simulation
 
