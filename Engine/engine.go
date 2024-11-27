@@ -59,59 +59,42 @@ func (engine *Engine) Receive(ctx actor.Context) {
 	case *messages.RegisterUser:
 		engine.Stats.TotalUsers++
         engine.Stats.UserStats[msg.UserName] = UserStat{}
-		// fmt.Println("Engine: Processing user registration")
 		engine.RegisterUser(msg.UserName)
-		//		engine.Wg.Done()
 
 	case *messages.UserJoinSubReddit:
 		if _, exists := engine.subreddits[msg.SubRedditName]; !exists {
             engine.Stats.TotalSubreddits++
         }
-		// fmt.Println("Engine: User Join SubReddit Operation")
 		engine.SubredditSpecificOp("join", msg.UserName, msg.SubRedditName)
-		//		engine.Wg.Done()
 
 	case *messages.UserLeaveSubReddit:
-		// fmt.Println("Engine: User Leave SubReddit Operation")
 		engine.SubredditSpecificOp("leave", msg.UserName, msg.SubRedditName)
-		//		engine.Wg.Done()
 
 	case *messages.CreatePost:
 		engine.Stats.TotalPosts++
         userStat := engine.Stats.UserStats[msg.UserName]
         userStat.PostCount++
         engine.Stats.UserStats[msg.UserName] = userStat
-		// fmt.Println("Engine: Create Post Operation")
 		engine.CreatePost(msg.UserName, msg.SubredditName, msg.Content)
 
-		//		engine.Wg.Done()
-
 	case *messages.ReplyToComment:
-		// fmt.Println("Engine: Reply To Comment")
 		engine.ReplyToComment(msg.UserName, msg.SubRedditName, msg.PostID, msg.CommentID, msg.ReplyContent)
-		//		engine.Wg.Done()
 
 	case *messages.SendDmToUser:
 		engine.Stats.TotalMessages++
-		// fmt.Println("Engine: Send DM")
 		engine.SendDMtoUser(msg.UserName, msg.Content)
-		//		engine.Wg.Done()
+	
 	case *messages.ReplyToDm:
-		// fmt.Println("Engine: Reply To DM")
 		engine.ReplyToAllDMs(msg.UserName, msg.Content)
-		//		engine.Wg.Done()
+	
 	case *messages.UpVotePost:
-		// fmt.Println("Engine: Processing Upvote")
 		engine.UpvoteRandomPost(msg.UserName)
 	
 	case *messages.DownVotePost:
-		// fmt.Println("Engine: Processing Downvote")
 		engine.DownvoteRandomPost(msg.UserName)
 
 	default:
-		// fmt.Println("Engine: Unknown message type received")
 	}
-	// fmt.Println("Engine: Exiting Receive method")
 }
 
 

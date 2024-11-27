@@ -14,12 +14,10 @@ import (
 
 func main() {
 	log := logrus.New()
-	// log.SetFlags(log.LstdFlags | log.Lshortfile)
 	log.SetFormatter(&logrus.TextFormatter{
-		FullTimestamp: true, // Enable full timestamps
-		TimestampFormat: "2006-01-02 15:04:05", // Set custom timestamp format
+		FullTimestamp: true,
+		TimestampFormat: "2006-01-02 15:04:05",
 	})
-	// Optional: Log to a file
 	log.SetOutput(os.Stderr)
 
 	startTime := time.Now()
@@ -49,7 +47,7 @@ func main() {
 	wg.Wait()
 	simulationTime := time.Since(startTime)
     engine.Stats.SimulationTime = simulationTime
-    log.Info("Simulation Completed")
+	log.Info(fmt.Sprintf("Simulation Completed in %v", simulationTime))
 
     engine.PrintStats()
 }

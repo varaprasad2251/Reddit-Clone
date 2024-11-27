@@ -67,6 +67,11 @@ Now you have Go installed and configured on your macOS system.
     ```
     Here `<num_users>` is the maximum number of users to be simulated
 
+    For `<num_users> > 50` , it is safe to use the below command that writes the output to `output.txt` file since the output will be large number of lines.
+    ```
+    go run main.go -users <num_users> >output.txt
+    ```
+
 
 ## Overview
 
@@ -139,7 +144,7 @@ These stats are collected throughout the simulation and printed at the end using
 To run the simulation:
 
 1. Ensure all dependencies are installed
-2. Run `go run main.go`
+2. Run `go run main.go -users <num_users>`
 
 The simulation will output detailed logs of user actions and their results. At the end of the simulation, comprehensive statistics will be displayed.
 
@@ -154,9 +159,8 @@ The simulation will output detailed logs of user actions and their results. At t
 | 1000        | 10423       | 10779            | 10683          | 44.5763764s           |
 | 5000        | 56089       | 56706            | 54101          | 45.0230307s           |
 
-## Future Improvements
+## Future Improvements (In Part II)
 
 - Implement a REST API for web client integration
-- Add support for images and markdown in posts
 - Implement a more sophisticated karma system
 - Enhance the simulation to better mimic real-world usage patterns, including Zipf distribution for subreddit membership

@@ -150,7 +150,7 @@ func generateRandomContent() string {
 func randomVote(enginePID *actor.PID, system *actor.ActorSystem, userName string) {
     targetUser := fmt.Sprintf("%d", rand.Intn(5)+1)
     postID := rand.Intn(100)
-    if rand.Float32() < 0.7 { // 70% chance of upvote
+    if rand.Float32() < 0.7 {
         system.Root.Send(enginePID, &messages.UpVotePost{
             UserName:   userName,
             TargetUser: targetUser,
