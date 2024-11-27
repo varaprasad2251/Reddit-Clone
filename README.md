@@ -133,6 +133,16 @@ The engine tracks various statistics:
 
 These stats are collected throughout the simulation and printed at the end using the `PrintStats` method of the Engine.
 
+
+## Running the Simulation
+
+To run the simulation:
+
+1. Ensure all dependencies are installed
+2. Run `go run main.go`
+
+The simulation will output detailed logs of user actions and their results. At the end of the simulation, comprehensive statistics will be displayed.
+
 ## Simulation Statistics
 
 | Total Users | Total Posts | Total Subreddits | Total Messages | Total Simulation Time |
@@ -143,16 +153,6 @@ These stats are collected throughout the simulation and printed at the end using
 | 500         | 5407        | 5448             | 5323           | 44.0380639s           |
 | 1000        | 10423       | 10779            | 10683          | 44.5763764s           |
 | 5000        | 56089       | 56706            | 54101          | 45.0230307s           |
-
-
-## Running the Simulation
-
-To run the simulation:
-
-1. Ensure all dependencies are installed
-2. Run `go run main.go`
-
-The simulation will output detailed logs of user actions and their results. At the end of the simulation, comprehensive statistics will be displayed.
 
 ## Future Improvements
 
