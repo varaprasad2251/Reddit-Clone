@@ -72,6 +72,7 @@ Now you have Go installed and configured on your macOS system.
     go run main.go -users <num_users> >output.txt
     ```
 
+# 4.1
 
 ## Overview
 
@@ -164,3 +165,61 @@ The simulation will output detailed logs of user actions and their results. At t
 - Implement a REST API for web client integration
 - Implement a more sophisticated karma system
 - Enhance the simulation to better mimic real-world usage patterns, including Zipf distribution for subreddit membership
+
+
+# 4.2
+
+# REST API Interface 
+
+In this part, we extended the Reddit engine developed in 4.1 by implementing a REST API interface and a client to interact with it. The system demonstrates concurrent user interactions and core Reddit like functionalities.
+
+## Features
+
+1. REST API interface for the Reddit engine
+2. Simple client implementation to interact with the API
+3. Multi-client simulation to demonstrate concurrent functionality
+
+## Packages Used
+
+- `github.com/gin-gonic/gin`: Web framework used to create the REST API
+- `net/http`: Standard Go package for HTTP client and Server implementation
+- `encoding/json`: Used for JSON encoding and decoding
+- `sync`: Provides synchronization primitives, used for coordinating goroutines
+- `time`: Used for adding delays between client actions
+
+## API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/register` | POST | Register a new user |
+| `/api/user/:username` | GET | Get user information |
+| `/api/user/:username/join` | POST | Join a subreddit |
+| `/api/user/:username/leave` | POST | Leave a subreddit |
+| `/api/subreddit` | POST | Create a new subreddit |
+| `/api/subreddit/:name` | GET | Get subreddit information |
+| `/api/submit` | POST | Create a new post |
+| `/api/posts/:id/upvote` | POST | Upvote a post |
+| `/api/posts/:id/downvote` | POST | Downvote a post |
+| `/api/comment` | POST | Create a comment |
+| `/api/message/compose` | POST | Send a direct message |
+| `/api/message/inbox` | GET | Get user's direct messages |
+| `/api/feed` | GET | Get user's feed |
+
+## Client Implementation
+
+The client (`reddit_client.go`) provides methods to interact with each API endpoint:
+
+```go
+type RedditClient struct {
+    // ...
+}
+
+func (c *RedditClient) RegisterUser(username string) (map[string]interface{}, error)
+func (c *RedditClient) CreateSubreddit(name string) (map[string]interface{}, error)
+func (c *RedditClient) JoinSubreddit(username, subredditName string) (map[string]interface{}, error)
+func (c *RedditClient) LeaveSubreddit(username, subredditName string) (map[string]interface{}, error)
+func (c *RedditClient) CreatePost(username, subredditName, content string) (map[string]interface{}, error)
+func (c *RedditClient) UpvotePost(username string) (map[string]interface{}, error)
+func (c *RedditClient) DownvotePost(username string) (map[string]interface{}, error)
+func (c *RedditClient) SendDirectMessage(sender, content string) (map[string]interface{}, error)
+func (c *RedditClient) GetUserInfo(username string) (map[string]interface{}, error)
