@@ -187,39 +187,88 @@ In this part, we extended the Reddit engine developed in 4.1 by implementing a R
 - `sync`: Provides synchronization primitives, used for coordinating goroutines
 - `time`: Used for adding delays between client actions
 
-## API Endpoints
+## Components
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/register` | POST | Register a new user |
-| `/api/user/:username` | GET | Get user information |
-| `/api/user/:username/join` | POST | Join a subreddit |
-| `/api/user/:username/leave` | POST | Leave a subreddit |
-| `/api/subreddit` | POST | Create a new subreddit |
-| `/api/subreddit/:name` | GET | Get subreddit information |
-| `/api/submit` | POST | Create a new post |
-| `/api/posts/:id/upvote` | POST | Upvote a post |
-| `/api/posts/:id/downvote` | POST | Downvote a post |
-| `/api/comment` | POST | Create a comment |
-| `/api/message/compose` | POST | Send a direct message |
-| `/api/message/inbox` | GET | Get user's direct messages |
-| `/api/feed` | GET | Get user's feed |
+### 1. API (api/api.go)
 
-## Client Implementation
+The API is implemented using the Gin web framework and provides endpoints for core Reddit-like functionalities:
 
-The client (`reddit_client.go`) provides methods to interact with each API endpoint:
+- Register an account
+- Join, Leave subreddits
+- Create posts
+- Comment on posts
+- Upvote and downvote posts
+- Send and reply to direct messages
 
-```go
-type RedditClient struct {
-    // ...
-}
+List of  Endpoints:
 
-func (c *RedditClient) RegisterUser(username string) (map[string]interface{}, error)
-func (c *RedditClient) CreateSubreddit(name string) (map[string]interface{}, error)
-func (c *RedditClient) JoinSubreddit(username, subredditName string) (map[string]interface{}, error)
-func (c *RedditClient) LeaveSubreddit(username, subredditName string) (map[string]interface{}, error)
-func (c *RedditClient) CreatePost(username, subredditName, content string) (map[string]interface{}, error)
-func (c *RedditClient) UpvotePost(username string) (map[string]interface{}, error)
-func (c *RedditClient) DownvotePost(username string) (map[string]interface{}, error)
-func (c *RedditClient) SendDirectMessage(sender, content string) (map[string]interface{}, error)
-func (c *RedditClient) GetUserInfo(username string) (map[string]interface{}, error)
+| Endpoint                   | Method | Description                        |
+|----------------------------|--------|------------------------------------|
+| `/api/register`            | POST   | Register a new user               |
+| `/api/user/:username`      | GET    | Get user information              |
+| `/api/user/:username/join` | POST   | Join a subreddit                  |
+| `/api/user/:username/leave`| POST   | Leave a subreddit                 |
+| `/api/subreddit`           | POST   | Create a new subreddit            |
+| `/api/subreddit/:name`     | GET    | Get subreddit information         |
+| `/api/submit`              | POST   | Create a new post                 |
+| `/api/posts/:id/upvote`    | POST   | Upvote a post                     |
+| `/api/posts/:id/downvote`  | POST   | Downvote a post                   |
+| `/api/comment`             | POST   | Create a comment                  |
+| `/api/message/compose`     | POST   | Send a direct message             |
+| `/api/message/inbox`       | GET    | Get user's direct messages        |
+| `/api/feed`                | GET    | Get user's feed                   |
+
+---
+
+## 2. Client Implementation (client.go)
+
+The client provides a simple interface to interact with the API. It supports all core functionalities, allowing users to:
+
+- Register users
+- Create subreddits
+- Join/leave subreddits
+- Create posts
+- Upvote/downvote posts
+- Comment on posts
+- Send direct messages
+- Retrieve user information
+
+## 3. Multi-Client Simulation (multi_client.go)
+
+The multi-client simulation demonstrates concurrent interactions with the API. It simulates multiple clients performing actions such as registering users, creating subreddits, posting content, and interacting with each other's data.
+
+### Key Features:
+- Creates multiple RedditClient instances.
+- Simulates various user actions concurrently.
+- Demonstrates the system's ability to handle multiple clients simultaneously.
+
+
+## Usage
+
+### Start the Server
+
+Run the Reddit-like engine server:
+~~~
+go run main.go
+~~~
+
+### To Run Single-Client
+To create a single client and call the api endpoints to test their functionality. (in another terminal window)
+~~~
+go run client.go
+~~~
+
+### To Run Multi-Client Simulation
+Run the multi-client simulation to test concurrent requests to the api server. For this, we have created two clients and made different endpoint calls from the two clients. (in another terminal window)
+~~~
+go run multi_client.go
+~~~
+ 
+
+### Demo Link
+
+Here's the link to the demo video for 4.2 : 
+
+
+## Conclusion
+This project showcases a Reddit-like system with a REST API interface and demonstrates its ability to handle concurrent client interactions. It supports core functionalities such as user registration, subreddit management, posting, voting, commenting, and messaging. The multi-client simulation validates that the system can handle multiple clients interacting with server by making requests concurrently while maintaining data integrity.
