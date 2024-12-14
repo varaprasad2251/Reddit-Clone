@@ -220,6 +220,25 @@ List of  Endpoints:
 
 ---
 
+Here are some sample API requests that can be made while the server is running:
+
+1. To Register a User:
+    ~~~
+    curl -X POST http://localhost:8080/api/register -H "Content-Type: application/json" -d '{"username":"testuser"}'
+    ~~~
+2. To Create a subreddit:
+    ~~~
+    curl -X POST http://localhost:8080/api/subreddit -H "Content-Type: application/json" -d '{"name":"testsubreddit"}'
+    ~~~
+3. To Join a subreddit:
+    ~~~
+    curl -X POST http://localhost:8080/api/user/testuser/join -H "Content-Type: application/json" -d '{"name":"testsubreddit"}'
+    ~~~
+4. To Create a Post:
+    ~~~
+    curl -X POST http://localhost:8080/api/submit -H "Content-Type: application/json" -d '{"username":"testuser", "subreddit":"testsubreddit", "content":"This is a test post"}'
+    ~~~
+
 ## 2. Client Implementation (client.go)
 
 The client provides a simple interface to interact with the API. It supports all core functionalities, allowing users to:

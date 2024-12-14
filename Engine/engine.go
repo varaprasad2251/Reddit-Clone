@@ -39,7 +39,6 @@ type Subreddit struct {
 
 
 func NewEngine(system *actor.ActorSystem, wg *sync.WaitGroup) *Engine {
-	fmt.Println("Initializing New Engine")
 
 	return &Engine{
 		userData:      make(map[string]messages.UserDataType),

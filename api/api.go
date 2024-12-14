@@ -9,12 +9,14 @@ import (
     "cop5615-project4/messages"
 )
 
+
 type API struct {
     engine *Engine.Engine
     router *gin.Engine
 }
 
 func NewAPI(engine *Engine.Engine) *API {
+    gin.SetMode(gin.ReleaseMode)
     api := &API{
         engine: engine,
         router: gin.Default(),
