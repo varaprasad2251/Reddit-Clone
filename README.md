@@ -1,5 +1,6 @@
-# COP5615 Project 4
-Project 4 - Reddit Clone in GO
+# Reddit Clone
+
+COP5615 Project 4 - Reddit Clone in GO
 
 ## Description
 
