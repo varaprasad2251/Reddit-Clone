@@ -39,7 +39,6 @@ type Subreddit struct {
 
 
 func NewEngine(system *actor.ActorSystem, wg *sync.WaitGroup) *Engine {
-	fmt.Println("Initializing New Engine")
 
 	return &Engine{
 		userData:      make(map[string]messages.UserDataType),
@@ -145,4 +144,22 @@ func (engine *Engine) PrintStats() {
     for user, stat := range engine.Stats.UserStats {
         fmt.Printf("User %s - Posts: %d\n", user, stat.PostCount)
     }
+}
+
+func (engine *Engine) GetUserData(username string) (messages.UserDataType, bool) {
+    userData, exists := engine.userData[username]
+    return userData, exists
+}
+
+func (engine *Engine) GetSubRedditData(name string) (messages.SubReddit, bool) {
+    subRedditData, exists := engine.subRedditData[name]
+    return subRedditData, exists
+}
+
+func (engine *Engine) CreateSubReddit(name string) {
+    engine.subRedditData[name] = messages.SubReddit{ListOfPosts: []messages.Post{}}
+}
+
+func (engine *Engine) GetSubRedditPostCount(name string) int {
+    return len(engine.subRedditData[name].ListOfPosts)
 }

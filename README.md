@@ -72,6 +72,7 @@ Now you have Go installed and configured on your macOS system.
     go run main.go -users <num_users> >output.txt
     ```
 
+# 4.1
 
 ## Overview
 
@@ -164,3 +165,129 @@ The simulation will output detailed logs of user actions and their results. At t
 - Implement a REST API for web client integration
 - Implement a more sophisticated karma system
 - Enhance the simulation to better mimic real-world usage patterns, including Zipf distribution for subreddit membership
+
+
+# 4.2
+
+# REST API Interface 
+
+In this part, we extended the Reddit engine developed in 4.1 by implementing a REST API interface and a client to interact with it. The system demonstrates concurrent user interactions and core Reddit like functionalities.
+
+## Features
+
+1. REST API interface for the Reddit engine
+2. Simple client implementation to interact with the API
+3. Multi-client simulation to demonstrate concurrent functionality
+
+## Packages Used
+
+- `github.com/gin-gonic/gin`: Web framework used to create the REST API
+- `net/http`: Standard Go package for HTTP client and Server implementation
+- `encoding/json`: Used for JSON encoding and decoding
+- `sync`: Provides synchronization primitives, used for coordinating goroutines
+- `time`: Used for adding delays between client actions
+
+## Components
+
+### 1. API (api/api.go)
+
+The API is implemented using the Gin web framework and provides endpoints for core Reddit-like functionalities:
+
+- Register an account
+- Join, Leave subreddits
+- Create posts
+- Comment on posts
+- Upvote and downvote posts
+- Send and reply to direct messages
+
+List of  Endpoints:
+
+| Endpoint                   | Method | Description                        |
+|----------------------------|--------|------------------------------------|
+| `/api/register`            | POST   | Register a new user               |
+| `/api/user/:username`      | GET    | Get user information              |
+| `/api/user/:username/join` | POST   | Join a subreddit                  |
+| `/api/user/:username/leave`| POST   | Leave a subreddit                 |
+| `/api/subreddit`           | POST   | Create a new subreddit            |
+| `/api/subreddit/:name`     | GET    | Get subreddit information         |
+| `/api/submit`              | POST   | Create a new post                 |
+| `/api/posts/:id/upvote`    | POST   | Upvote a post                     |
+| `/api/posts/:id/downvote`  | POST   | Downvote a post                   |
+| `/api/comment`             | POST   | Create a comment                  |
+| `/api/message/compose`     | POST   | Send a direct message             |
+| `/api/message/inbox`       | GET    | Get user's direct messages        |
+| `/api/feed`                | GET    | Get user's feed                   |
+
+---
+
+Here are some sample API requests that can be made while the server is running:
+
+1. To Register a User:
+    ~~~
+    curl -X POST http://localhost:8080/api/register -H "Content-Type: application/json" -d '{"username":"testuser"}'
+    ~~~
+2. To Create a subreddit:
+    ~~~
+    curl -X POST http://localhost:8080/api/subreddit -H "Content-Type: application/json" -d '{"name":"testsubreddit"}'
+    ~~~
+3. To Join a subreddit:
+    ~~~
+    curl -X POST http://localhost:8080/api/user/testuser/join -H "Content-Type: application/json" -d '{"name":"testsubreddit"}'
+    ~~~
+4. To Create a Post:
+    ~~~
+    curl -X POST http://localhost:8080/api/submit -H "Content-Type: application/json" -d '{"username":"testuser", "subreddit":"testsubreddit", "content":"This is a test post"}'
+    ~~~
+
+## 2. Client Implementation (client.go)
+
+The client provides a simple interface to interact with the API. It supports all core functionalities, allowing users to:
+
+- Register users
+- Create subreddits
+- Join/leave subreddits
+- Create posts
+- Upvote/downvote posts
+- Comment on posts
+- Send direct messages
+- Retrieve user information
+
+## 3. Multi-Client Simulation (multi_client.go)
+
+The multi-client simulation demonstrates concurrent interactions with the API. It simulates multiple clients performing actions such as registering users, creating subreddits, posting content, and interacting with each other's data.
+
+### Key Features:
+- Creates multiple RedditClient instances.
+- Simulates various user actions concurrently.
+- Demonstrates the system's ability to handle multiple clients simultaneously.
+
+
+## Usage
+
+### Start the Server
+
+Run the Reddit-like engine server:
+~~~
+go run main.go
+~~~
+
+### To Run Single-Client
+To create a single client and call the api endpoints to test their functionality. (in another terminal window)
+~~~
+go run client.go
+~~~
+
+### To Run Multi-Client Simulation
+Run the multi-client simulation to test concurrent requests to the api server. For this, we have created two clients and made different endpoint calls from the two clients. (in another terminal window)
+~~~
+go run multi_client.go
+~~~
+ 
+
+### Demo Link
+
+Here's the link to the demo video for 4.2 : [link](https://drive.google.com/file/d/1C_gcwL3DYXVF1fidh32jhFCbvlZ6dqe_/view?usp=sharing)
+
+
+## Conclusion
+This project showcases a Reddit-like system with a REST API interface and demonstrates its ability to handle concurrent client interactions. It supports core functionalities such as user registration, subreddit management, posting, voting, commenting, and messaging. The multi-client simulation validates that the system can handle multiple clients interacting with server by making requests concurrently while maintaining data integrity.
